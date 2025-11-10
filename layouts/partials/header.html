@@ -6,7 +6,7 @@
 
 <title>{{ .Params.Title | markdownify }}</title>
 
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="https://flowbite.com{{ .RelPermalink }}">
 
 {{ with .Params.robots -}}
 <meta name="robots" content="{{ . }}">
