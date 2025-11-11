@@ -54,7 +54,7 @@ def index():
 	return render_template("index.html")
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug="true")
 ```
 
 What we do here is that we import the Flask micro framework from Python and also set the app route for a new `index.html` file inside the `templates/` folder that we will create in the next step.

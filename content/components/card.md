@@ -17,7 +17,7 @@ Use these responsive card components to show data entries and information to you
 
 Use the following simple card component with a title and description.
 
-{{< example id="default-card-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="default-card-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
@@ -29,7 +29,7 @@ Use the following simple card component with a title and description.
 
 Use the following example of a card element if you also want to have an action button.
 
-{{< example id="card-cta-button-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-cta-button-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
@@ -49,7 +49,7 @@ Use the following example of a card element if you also want to have an action b
 
 This example can be used to show a CTA as a link instead of a button inside the card.
 
-{{< example id="card-cta-link-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-cta-link-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -72,7 +72,7 @@ This example can be used to show a CTA as a link instead of a button inside the 
 
 You can use the following example of a card element with an image for blog posts, user cards, and many more.
 
-{{< example id="card-image-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-image-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
@@ -97,7 +97,7 @@ You can use the following example of a card element with an image for blog posts
 
 If you want to spice up your cards you can use the following card which has its child elements aligned horizontally.
 
-{{< example id="card-horizontal-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-horizontal-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
     <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/docs/images/blog/image-4.jpg" alt="">
     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -111,7 +111,7 @@ If you want to spice up your cards you can use the following card which has its 
 
 Use this user profile card example if you want to show a dropdown menu and buttons to enable multiple actions from your user.
 
-{{< example id="card-user-profile-example" class="flex flex-wrap justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-user-profile-example" class="flex flex-wrap justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <div class="flex justify-end px-4 pt-4">
@@ -152,7 +152,7 @@ Use this user profile card example if you want to show a dropdown menu and butto
 
 Use this card example where you can add form input elements that can be used for authentication actions or any other context where you need to receive information from your users.
 
-{{< example id="card-form-inputs-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-form-inputs-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
     <form class="space-y-6" action="#">
@@ -186,7 +186,7 @@ Use this card example where you can add form input elements that can be used for
 
 Use this card for your e-commerce websites and show information about the products and enable actions such as adding a review and adding the product to the cart.
 
-{{< example id="card-ecommerce-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-ecommerce-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
@@ -228,7 +228,7 @@ Use this card for your e-commerce websites and show information about the produc
 
 Use this CTA card example to encourage your users to visit a certain page such as downloading the iOS or Android application for your project.
 
-{{< example id="card-cta-example" github="components/card.md" show_dark=true >}}
+{{< example id="card-cta-example" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
     <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">Work fast from anywhere</h5>
@@ -256,7 +256,7 @@ Use this CTA card example to encourage your users to visit a certain page such a
 
 Use this example of a card component with navigation tabs that can change the content inside the card based on which one is currently active.
 
-{{< example id="card-nav-tabs-example" github="components/card.md" show_dark=true >}}
+{{< example id="card-nav-tabs-example" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 border-b border-gray-200 rounded-t-lg bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:bg-gray-800" id="defaultTab" data-tabs-toggle="#defaultTabContent" role="tablist">
@@ -335,7 +335,7 @@ Use this example of a card component with navigation tabs that can change the co
 
 Use this example of a card component to show tabs that span the full width of the element and change the content area clicking on each one.
 
-{{< example id="card-full-width-tabs-example" github="components/card.md" show_dark=true >}}
+{{< example id="card-full-width-tabs-example" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <div class="sm:hidden">
@@ -475,7 +475,7 @@ Use this example of a card component to show tabs that span the full width of th
 
 Use this card example if you want to show a list of data:
 
-{{< example id="card-list-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-list-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
     <div class="flex items-center justify-between mb-4">
@@ -585,7 +585,7 @@ Use this card example if you want to show a list of data:
 
 Show detailed information to potential customers about your product's pricing plan, list of features, and a purchase button.
 
-{{< example id="card-pricing-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-pricing-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
 <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
@@ -646,7 +646,7 @@ Show detailed information to potential customers about your product's pricing pl
 
 Use this example to split cards into multiple sections such as for testimonials or reviews.
 
-{{< example id="card-testimonial-example" github="components/card.md" show_dark=true >}}
+{{< example id="card-testimonial-example" github="components/card.md" show_dark="true" >}}
 
 <div class="grid mb-8 border border-gray-200 rounded-lg shadow-xs dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800">
     <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
@@ -708,7 +708,7 @@ Use this example to split cards into multiple sections such as for testimonials 
 
 Use this web3 card component to show a list of applications that you can use to connect your crypto wallet for NFT related trading and authentication.
 
-{{< example id="card-crypto-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
+{{< example id="card-crypto-example" class="flex justify-center" github="components/card.md" show_dark="true" >}}
 
 <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700">
 <h5 class="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white">

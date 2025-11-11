@@ -18,7 +18,7 @@ The toast component can be used to enhance your website's interactivity by pushi
 
 Use this simple toast component with an icon, message, and dismissible close button to show alert messages to your website visitors. Make sure that you set the correct id for the `data-dismiss-target` data attribute to enable the dismissible feature.
 
-{{< example id="default-toast-example" class="flex justify-center" github="components/toast.md" show_dark=true >}}
+{{< example id="default-toast-example" class="flex justify-center" github="components/toast.md" show_dark="true" >}}
 
 <div id="toast-default" class="flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow-sm dark:text-gray-400 dark:bg-gray-800" role="alert">
     <div class="inline-flex items-center justify-center shrink-0 w-8 h-8 text-blue-500 bg-blue-100 rounded-lg dark:bg-blue-800 dark:text-blue-200">
@@ -42,7 +42,7 @@ Use this simple toast component with an icon, message, and dismissible close but
 
 Use these contextual toast components to show success, danger, or warning alert messages to your users.
 
-{{< example id="toast-colors-example" class="flex flex-col items-center" github="components/toast.md" show_dark=true >}}
+{{< example id="toast-colors-example" class="flex flex-col items-center" github="components/toast.md" show_dark="true" >}}
 
 <div id="toast-success" class="flex items-center w-full max-w-xs p-4 mb-4 text-gray-500 bg-white rounded-lg shadow-sm dark:text-gray-400 dark:bg-gray-800" role="alert">
     <div class="inline-flex items-center justify-center shrink-0 w-8 h-8 text-green-500 bg-green-100 rounded-lg dark:bg-green-800 dark:text-green-200">
@@ -96,7 +96,7 @@ Use these contextual toast components to show success, danger, or warning alert 
 
 This component can be used to show simple messages and notifications without the use of a close button.
 
-{{< example id="toast-simple-example" class="flex justify-center" github="components/toast.md" show_dark=true >}}
+{{< example id="toast-simple-example" class="flex justify-center" github="components/toast.md" show_dark="true" >}}
 
 <div id="toast-simple" class="flex items-center w-full max-w-xs p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow-sm dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800" role="alert">
     <svg class="w-5 h-5 text-blue-600 dark:text-blue-500 rotate-45" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
@@ -110,7 +110,7 @@ This component can be used to show simple messages and notifications without the
 
 Use this toast component to also show an "undo" button to reverse the action of the user.
 
-{{< example id="toast-undo-example" class="flex justify-center" github="components/toast.md" show_dark=true >}}
+{{< example id="toast-undo-example" class="flex justify-center" github="components/toast.md" show_dark="true" >}}
 
 <div id="toast-undo" class="flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow-sm dark:text-gray-400 dark:bg-gray-800" role="alert">
     <div class="text-sm font-normal">
@@ -133,7 +133,7 @@ Use this toast component to also show an "undo" button to reverse the action of 
 
 This component can be used to show messages and a CTA button when receiving chat messages, comment notifications, and other use cases.
 
-{{< example id="toast-message-example" class="flex justify-center" github="components/toast.md" show_dark=true >}}
+{{< example id="toast-message-example" class="flex justify-center" github="components/toast.md" show_dark="true" >}}
 
 <div id="toast-message-cta" class="w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow-sm dark:bg-gray-800 dark:text-gray-400" role="alert">
     <div class="flex">
@@ -157,7 +157,7 @@ This component can be used to show messages and a CTA button when receiving chat
 
 This component can be used to show notifications for an action from another user such as posting a comment, receiving a like, being tagged. You can show an avatar, icon, message, and the time of the notification.
 
-{{< example id="toast-push-example" class="flex justify-center" github="components/toast.md" show_dark=true >}}
+{{< example id="toast-push-example" class="flex justify-center" github="components/toast.md" show_dark="true" >}}
 
 <div id="toast-notification" class="w-full max-w-xs p-4 text-gray-900 bg-white rounded-lg shadow-sm dark:bg-gray-800 dark:text-gray-300" role="alert">
     <div class="flex items-center mb-3">
@@ -194,7 +194,7 @@ This component can be used to show notifications for an action from another user
 
 Use this interactive toast component to encourage users to make a certain action such as updating to the latest software version. You can set an icon, message, and two CTA buttons.
 
-{{< example id="toast-interactive-example" class="flex justify-center" github="components/toast.md" show_dark=true >}}
+{{< example id="toast-interactive-example" class="flex justify-center" github="components/toast.md" show_dark="true" >}}
 
 <div id="toast-interactive" class="w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow-sm dark:bg-gray-800 dark:text-gray-400" role="alert">
     <div class="flex">
@@ -236,7 +236,7 @@ Use the `fixed` class from Tailwind CSS to position these toast components relat
 -   Bottom left: `fixed bottom-5 left-5`
 -   Bottom right: `fixed bottom-5 right-5`
 
-{{< example id="toast-positioning-example" github="components/toast.md" class="relative h-56" show_dark=true >}}
+{{< example id="toast-positioning-example" github="components/toast.md" class="relative h-56" show_dark="true" >}}
 
 <div id="toast-top-left" class="fixed flex items-center w-full max-w-xs p-4 space-x-4 text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow-sm top-5 left-5 dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800" role="alert">
     <div class="text-sm font-normal">Top left positioning.</div>

@@ -19,7 +19,7 @@ There are multiple examples that you can use including horizontal or vertical al
 
 Use this example to show a list of form steps with a number and title of the step in a horizontal alignment.
 
-{{< example id="default-stepper-example" github="components/stepper.md" show_dark=true >}}
+{{< example id="default-stepper-example" github="components/stepper.md" show_dark="true" >}}
 
 <ol class="flex items-center w-full text-sm font-medium text-center text-gray-500 dark:text-gray-400 sm:text-base">
     <li class="flex md:w-full items-center text-blue-600 dark:text-blue-500 sm:after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">
@@ -47,7 +47,7 @@ Use this example to show a list of form steps with a number and title of the ste
 
 This example can be used to show the progress of the stepper component based only on icons and showing a checkmark when the step has been finished.
 
-{{< example id="progress-stepper-example" github="components/stepper.md" show_dark=true >}}
+{{< example id="progress-stepper-example" github="components/stepper.md" show_dark="true" >}}
 
 <ol class="flex items-center w-full">
     <li class="flex w-full items-center text-blue-600 dark:text-blue-500 after:content-[''] after:w-full after:h-1 after:border-b after:border-blue-100 after:border-4 after:inline-block dark:after:border-blue-800">
@@ -78,7 +78,7 @@ This example can be used to show the progress of the stepper component based onl
 
 Use this example to show an extra subtitle next to the number and the title of the steppper component based on an ordered list element.
 
-{{< example id="detailed-stepper-example" github="components/stepper.md" show_dark=true >}}
+{{< example id="detailed-stepper-example" github="components/stepper.md" show_dark="true" >}}
 <ol class="items-center w-full space-y-4 sm:flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse">
     <li class="flex items-center text-blue-600 dark:text-blue-500 space-x-2.5 rtl:space-x-reverse">
         <span class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -115,7 +115,7 @@ Use this example to show an extra subtitle next to the number and the title of t
 
 This example can be used to show a list of steps aligned vertically where you can indicate the completed, currently active, and the unexplored steps.
 
-{{< example id="vertical-stepper-example" github="components/stepper.md" show_dark=true >}}
+{{< example id="vertical-stepper-example" github="components/stepper.md" show_dark="true" >}}
 <ol class="space-y-4 w-72">
     <li>
         <div class="w-full p-4 text-green-700 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:border-green-800 dark:text-green-400" role="alert">
@@ -173,7 +173,7 @@ This example can be used to show a list of steps aligned vertically where you ca
 
 This example can be used to show the number of steps similar to how a breadcrumb component looks like by using double chevron icons between the items.
 
-{{< example id="breadcrumb-stepper-example" github="components/stepper.md" show_dark=true >}}
+{{< example id="breadcrumb-stepper-example" github="components/stepper.md" show_dark="true" >}}
 <ol class="flex items-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-xs dark:text-gray-400 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 rtl:space-x-reverse">
     <li class="flex items-center text-blue-600 dark:text-blue-500">
         <span class="flex items-center justify-center w-5 h-5 me-2 text-xs border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
@@ -207,7 +207,7 @@ This example can be used to show the number of steps similar to how a breadcrumb
 
 Use this example to show the number of steps inside a timeline component using icons, title, and subtitle for each step.
 
-{{< example id="timeline-stepper-example" github="components/stepper.md" class="p-4" show_dark=true >}}
+{{< example id="timeline-stepper-example" github="components/stepper.md" class="p-4" show_dark="true" >}}
 
 <ol class="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400">                  
     <li class="mb-10 ms-6">            
@@ -253,7 +253,7 @@ Use this example to show the number of steps inside a timeline component using i
 
 Use this example to show the stepper component next to a form layout and change the content based on which currently step your are completing.
 
-{{< example id="form-stepper-example" github="components/stepper.md" show_dark=true >}}
+{{< example id="form-stepper-example" github="components/stepper.md" show_dark="true" >}}
 
 <ol class="flex items-center w-full mb-4 sm:mb-5">
     <li class="flex w-full items-center text-blue-600 dark:text-blue-500 after:content-[''] after:w-full after:h-1 after:border-b after:border-blue-100 after:border-4 after:inline-block dark:after:border-blue-800">

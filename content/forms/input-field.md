@@ -19,7 +19,7 @@ On this page you will find all of the input types based on multiple variants, st
 
 Use this example as a generic form element which includes multiple input fields types such as text, email, password, number, URL, and phone number and use the grid layout to add multiple columns and rows.
 
-{{< example id="default-input-field-example" github="forms/input-field.md" show_dark=true >}}
+{{< example id="default-input-field-example" github="forms/input-field.md" show_dark="true" >}}
 <form>
     <div class="grid gap-6 mb-6 md:grid-cols-2">
         <div>
@@ -73,7 +73,7 @@ Use this example as a generic form element which includes multiple input fields 
 
 Use the following examples to apply a small, default or large size for the input fields.
 
-{{< example id="input-field-sizes-example" github="forms/input-field.md" show_dark=true >}}
+{{< example id="input-field-sizes-example" github="forms/input-field.md" show_dark="true" >}}
 <div class="mb-6">
     <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Large input</label>
     <input type="text" id="large-input" class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -92,7 +92,7 @@ Use the following examples to apply a small, default or large size for the input
 
 Get started with this example if you want to apply the disabled state to an input field.
 
-{{< example id="input-field-disabled-example" github="forms/input-field.md" show_dark=true >}}
+{{< example id="input-field-disabled-example" github="forms/input-field.md" show_dark="true" >}}
 <input type="text" id="disabled-input" aria-label="disabled input" class="mb-6 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="Disabled input" disabled>
 <input type="text" id="disabled-input-2" aria-label="disabled input 2" class="bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="Disabled readonly input" disabled readonly>
 {{< /example >}}
@@ -101,7 +101,7 @@ Get started with this example if you want to apply the disabled state to an inpu
 
 Use the following example to apply validation styles for success and error messages.
 
-{{< example id="input-field-validation-example" github="forms/input-field.md" show_dark=true >}}
+{{< example id="input-field-validation-example" github="forms/input-field.md" show_dark="true" >}}
 <div class="mb-6">
   <label for="success" class="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your name</label>
   <input type="text" id="success" class="bg-green-50 border border-green-500 text-green-900 dark:text-green-400 placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-green-500" placeholder="Success input">
@@ -118,7 +118,7 @@ Use the following example to apply validation styles for success and error messa
 
 This example can be used to add a descriptive icon or additional text inside the input field.
 
-{{< example id="input-field-group-example" github="forms/input-field.md" show_dark=true >}}
+{{< example id="input-field-group-example" github="forms/input-field.md" show_dark="true" >}}
 <label for="input-group-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label>
 <div class="relative mb-6">
   <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
@@ -144,7 +144,7 @@ This example can be used to add a descriptive icon or additional text inside the
 
 Use this example to show a helper text below the input field for additional explanation and links.
 
-{{< example id="input-field-helper-example" github="forms/input-field.md" show_dark=true >}}
+{{< example id="input-field-helper-example" github="forms/input-field.md" show_dark="true" >}}
 <label for="helper-text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
 <input type="email" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com">
 <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">We’ll never share your details. Read our <a href="#" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
@@ -154,7 +154,7 @@ Use this example to show a helper text below the input field for additional expl
 
 Get started with this example where the submit button is positioned inside the input field.
 
-{{< example id="input-field-search-example" github="forms/input-field.md" show_dark=true >}}
+{{< example id="input-field-search-example" github="forms/input-field.md" show_dark="true" >}}
 <form>   
     <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div class="relative">
@@ -177,7 +177,7 @@ Get started with this example where the submit button is positioned inside the i
 
 Use this example to show a dropdown menu right next to the input field.
 
-{{< example id="input-field-dropdown-example" github="forms/input-field.md" show_dark=true iframeHeight="290" >}}
+{{< example id="input-field-dropdown-example" github="forms/input-field.md" show_dark="true" iframeHeight="290" >}}
 <form>
     <div class="flex">
         <label for="search-dropdown" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Your Email</label>

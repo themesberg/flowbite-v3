@@ -21,7 +21,7 @@ You can also animate the skeleton component by using the `.animate-pulse` utilit
 
 Use this example to show a placeholder when loading text content.
 
-{{< example id="default-skeleton-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="default-skeleton-example" github="components/skeleton.md" show_dark="true" >}}
 <div role="status" class="max-w-sm animate-pulse">
     <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
     <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
@@ -38,7 +38,7 @@ Use this example to show a placeholder when loading text content.
 
 This example can be used to show a placeholder when loading an image and text content.
 
-{{< example id="skeleton-image-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="skeleton-image-example" github="components/skeleton.md" show_dark="true" >}}
 <div role="status" class="space-y-8 animate-pulse md:space-y-0 md:space-x-8 rtl:space-x-reverse md:flex md:items-center">
     <div class="flex items-center justify-center w-full h-48 bg-gray-300 rounded-sm sm:w-96 dark:bg-gray-700">
         <svg class="w-10 h-10 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
@@ -62,7 +62,7 @@ This example can be used to show a placeholder when loading an image and text co
 
 Use this example to show a skeleton placeholder when loading video content.
 
-{{< example id="skeleton-video-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="skeleton-video-example" github="components/skeleton.md" show_dark="true" >}}
 
 <div role="status" class="flex items-center justify-center h-56 max-w-sm bg-gray-300 rounded-lg animate-pulse dark:bg-gray-700">
     <svg class="w-10 h-10 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
@@ -77,7 +77,7 @@ Use this example to show a skeleton placeholder when loading video content.
 
 Use this example to show a placeholder when loading longer pagraphs and headings.
 
-{{< example id="skeleton-text-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="skeleton-text-example" github="components/skeleton.md" show_dark="true" >}}
 <div role="status" class="space-y-2.5 animate-pulse max-w-lg">
     <div class="flex items-center w-full">
         <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32"></div>
@@ -117,7 +117,7 @@ Use this example to show a placeholder when loading longer pagraphs and headings
 
 Use this example to show a placeholder when loading content inside a card.
 
-{{< example id="skeleton-card-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="skeleton-card-example" github="components/skeleton.md" show_dark="true" >}}
 <div role="status" class="max-w-sm p-4 border border-gray-200 rounded-sm shadow-sm animate-pulse md:p-6 dark:border-gray-700">
     <div class="flex items-center justify-center h-48 mb-4 bg-gray-300 rounded-sm dark:bg-gray-700">
         <svg class="w-10 h-10 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
@@ -146,7 +146,7 @@ Use this example to show a placeholder when loading content inside a card.
 
 This example can be used to show a placeholder of skeleton when fetching data for widgets and cards inside an application.
 
-{{< example id="skeleton-chart-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="skeleton-chart-example" github="components/skeleton.md" show_dark="true" >}}
 <div role="status" class="max-w-sm p-4 border border-gray-200 rounded-sm shadow-sm animate-pulse md:p-6 dark:border-gray-700">
     <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32 mb-2.5"></div>
     <div class="w-48 h-2 mb-10 bg-gray-200 rounded-full dark:bg-gray-700"></div>
@@ -167,7 +167,7 @@ This example can be used to show a placeholder of skeleton when fetching data fo
 
 Use this example to show a placeholder when loading a list of items.
 
-{{< example id="skeleton-list-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="skeleton-list-example" github="components/skeleton.md" show_dark="true" >}}
 <div role="status" class="max-w-md p-4 space-y-4 border border-gray-200 divide-y divide-gray-200 rounded-sm shadow-sm animate-pulse dark:divide-gray-700 md:p-6 dark:border-gray-700">
     <div class="flex items-center justify-between">
         <div>
@@ -212,7 +212,7 @@ Use this example to show a placeholder when loading a list of items.
 
 This example can be used to show a skeleton placeholder when loading data for a testimonial section.
 
-{{< example id="skeleton-testimonial-example" github="components/skeleton.md" show_dark=true >}}
+{{< example id="skeleton-testimonial-example" github="components/skeleton.md" show_dark="true" >}}
 <div role="status" class="animate-pulse">
     <div class="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[640px] mb-2.5 mx-auto"></div>
     <div class="h-2.5 mx-auto bg-gray-300 rounded-full dark:bg-gray-700 max-w-[540px]"></div>

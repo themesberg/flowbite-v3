@@ -17,7 +17,7 @@ Get started with a collection of list components built with Tailwind CSS for ord
 
 Use this example to create a default unordered list of items using the `list-disc` class.
 
-{{< example id="unordered-list-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="unordered-list-example" github="typography/lists.md" show_dark="true" >}}
 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements:</h2>
 <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
     <li>
@@ -36,7 +36,7 @@ Use this example to create a default unordered list of items using the `list-dis
 
 This example can be used to apply custom icons instead of the default bullets for the list items.
 
-{{< example id="unordered-list-icon-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="unordered-list-icon-example" github="typography/lists.md" show_dark="true" >}}
 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements:</h2>
 <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
     <li class="flex items-center">
@@ -64,7 +64,7 @@ This example can be used to apply custom icons instead of the default bullets fo
 
 Use this example to nested another list of items inside the parent list element.
 
-{{< example id="unordered-list-nested-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="unordered-list-nested-example" github="typography/lists.md" show_dark="true" >}}
 <ul class="space-y-4 text-gray-500 list-disc list-inside dark:text-gray-400">
     <li>
         List item one
@@ -97,7 +97,7 @@ Use this example to nested another list of items inside the parent list element.
 
 Use the `list-none` class to disable the list style bullets or numbers.
 
-{{< example id="unordered-list-unstyled-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="unordered-list-unstyled-example" github="typography/lists.md" show_dark="true" >}}
 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements:</h2>
 <ul class="max-w-md space-y-1 text-gray-500 list-none list-inside dark:text-gray-400">
     <li>
@@ -116,7 +116,7 @@ Use the `list-none` class to disable the list style bullets or numbers.
 
 Use the `<ol>` tag to create an ordered list of items with numbers.
 
-{{< example id="ordered-list-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="ordered-list-example" github="typography/lists.md" show_dark="true" >}}
 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Top students:</h2>
 <ol class="max-w-md space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
     <li>
@@ -135,7 +135,7 @@ Use the `<ol>` tag to create an ordered list of items with numbers.
 
 This example can be used to nest multiple lists into each other.
 
-{{< example id="ordered-list-nested-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="ordered-list-nested-example" github="typography/lists.md" show_dark="true" >}}
 <ol class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
    <li>
       List item one
@@ -168,7 +168,7 @@ This example can be used to nest multiple lists into each other.
 
 Create a description list by using the `<dl>` tag and set the term and name with the following example.
 
-{{< example id="description-list-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="description-list-example" github="typography/lists.md" show_dark="true" >}}
 <dl class="max-w-md text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
     <div class="flex flex-col pb-3">
         <dt class="mb-1 text-gray-500 md:text-lg dark:text-gray-400">Email address</dt>
@@ -189,7 +189,7 @@ Create a description list by using the `<dl>` tag and set the term and name with
 
 Use this example to create a list of items with [custom SVG icons](https://flowbite.com/icons/) instead of the default bullets.
 
-{{< example id="list-icons-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="list-icons-example" github="typography/lists.md" show_dark="true" >}}
 <ul class="space-y-4 text-left text-gray-500 dark:text-gray-400">
     <li class="flex items-center space-x-3 rtl:space-x-reverse">
          <svg class="shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
@@ -228,7 +228,7 @@ Use this example to create a list of items with [custom SVG icons](https://flowb
 
 This example can be used to show more details for each list item such as the user's name, email and profile picture.
 
-{{< example id="list-advanced-layout-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="list-advanced-layout-example" github="typography/lists.md" show_dark="true" >}}
 <ul class="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
    <li class="pb-3 sm:pb-4">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
@@ -327,7 +327,7 @@ This example can be used to show more details for each list item such as the use
 
 Use this example to create a horizontally aligned list of items.
 
-{{< example id="horizontal-list-example" github="typography/lists.md" show_dark=true >}}
+{{< example id="horizontal-list-example" github="typography/lists.md" show_dark="true" >}}
 <ul class="flex flex-wrap items-center justify-center text-gray-900 dark:text-white">
     <li>
         <a href="#" class="me-4 hover:underline md:me-6 ">About</a>

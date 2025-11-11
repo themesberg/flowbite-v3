@@ -19,7 +19,7 @@ Alternatively, badges can also be used as standalone elements that link to a cer
 
 Use the following badge elements to indicate counts or labels inside or outside components.
 
-{{< example id="default-badge-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="default-badge-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Default</span>
 <span class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-gray-300">Dark</span>
 <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-red-900 dark:text-red-300">Red</span>
@@ -34,7 +34,7 @@ Use the following badge elements to indicate counts or labels inside or outside 
 
 Use the `text-sm` utility class and increase the paddings to create a larger variant of the badges.
 
-{{< example id="badge-sizes-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="badge-sizes-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Default</span>
 <span class="bg-gray-100 text-gray-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-gray-300">Dark</span>
 <span class="bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-red-900 dark:text-red-300">Red</span>
@@ -49,7 +49,7 @@ Use the `text-sm` utility class and increase the paddings to create a larger var
 
 This example can be used to add a border accent to the badge component.
 
-{{< example id="bordered-badge-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="bordered-badge-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-blue-400 border border-blue-400">Default</span>
 <span class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Dark</span>
 <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-red-400 border border-red-400">Red</span>
@@ -64,7 +64,7 @@ This example can be used to add a border accent to the badge component.
 
 Use this example to make the corners even more rounded-sm like pills for the badge component.
 
-{{< example id="pills-badge-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="pills-badge-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">Default</span>
 <span class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Dark</span>
 <span class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">Red</span>
@@ -79,7 +79,7 @@ Use this example to make the corners even more rounded-sm like pills for the bad
 
 You can also use badges as anchor elements to link to another page.
 
-{{< example id="badge-links-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="badge-links-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-800 text-xs font-semibold me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-blue-400 border border-blue-400 inline-flex items-center justify-center">Badge link</a>
 <a href="#" class="bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-blue-400 border border-blue-400 inline-flex items-center justify-center">Badge link</a>
 {{< /example >}}
@@ -88,7 +88,7 @@ You can also use badges as anchor elements to link to another page.
 
 You can also use [SVG icons](https://flowbite.com/icons/) inside the badge elements.
 
-{{< example id="badge-icons-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="badge-icons-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <span class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-sm me-2 dark:bg-gray-700 dark:text-gray-400 border border-gray-500 ">
 <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm3.982 13.982a1 1 0 0 1-1.414 0l-3.274-3.274A1.012 1.012 0 0 1 9 10V6a1 1 0 0 1 2 0v3.586l2.982 2.982a1 1 0 0 1 0 1.414Z"/>
@@ -107,7 +107,7 @@ You can also use [SVG icons](https://flowbite.com/icons/) inside the badge eleme
 
 Use the following example to show a badge inside of a button component.
 
-{{< example id="badge-notification-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="badge-notification-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <button type="button" class="relative inline-flex items-center p-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
 <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
@@ -122,7 +122,7 @@ Use the following example to show a badge inside of a button component.
 
 Use this example to add a badge inside a button component for a count indicator.
 
-{{< example id="badge-button-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="badge-button-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <button type="button" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 Messages
 <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-blue-800 bg-blue-200 rounded-full">
@@ -135,7 +135,7 @@ Messages
 
 Alternatively you can also use badges which indicate only a SVG icon.
 
-{{< example id="badge-icon-only-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="badge-icon-only-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <span class="inline-flex items-center justify-center w-6 h-6 me-2 text-sm font-semibold text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">
 <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
@@ -167,7 +167,7 @@ Alternatively you can also use badges which indicate only a SVG icon.
 
 Use the `data-dismiss-target` data attribute to dismiss the current badge where the value is the id of the target element using a transition animation.
 
-{{< example id="badge-dismiss-example" class="flex justify-center" github="components/badge.md" show_dark=true >}}
+{{< example id="badge-dismiss-example" class="flex justify-center" github="components/badge.md" show_dark="true" >}}
 <span id="badge-dismiss-default" class="inline-flex items-center px-2 py-1 me-2 text-sm font-medium text-blue-800 bg-blue-100 rounded-sm dark:bg-blue-900 dark:text-blue-300">
 Default
 <button type="button" class="inline-flex items-center p-1 ms-2 text-sm text-blue-400 bg-transparent rounded-xs hover:bg-blue-200 hover:text-blue-900 dark:hover:bg-blue-800 dark:hover:text-blue-300" data-dismiss-target="#badge-dismiss-default" aria-label="Remove">

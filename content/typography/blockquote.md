@@ -19,7 +19,7 @@ The main `<blockquote>` HTML tag can be used together with the `<cite>` tag or a
 
 Use this example to quote an external source inside a blockquote element.
 
-{{< example id="default-blockquote-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="default-blockquote-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
     <p>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 </blockquote>
@@ -29,7 +29,7 @@ Use this example to quote an external source inside a blockquote element.
 
 This example can be used as an alternative style to the default one by applying a solid background color.
 
-{{< example id="blockquote-background-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="blockquote-background-example" github="typography/blockquote.md" show_dark="true" >}}
 <p class="text-gray-500 dark:text-gray-400">
 Does your user know how to exit out of screens? Can they follow your intended user journey and buy something from the site you’ve designed? By running a usability test, you’ll be able to see how users will interact with your design once it’s live.
 </p>
@@ -45,7 +45,7 @@ First of all you need to understand how Flowbite works. This library is not anot
 
 Use this example to show an icon above the blockquote text content.
 
-{{< example id="blockquote-icon-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="blockquote-icon-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
     <svg class="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
@@ -58,7 +58,7 @@ Use this example to show an icon above the blockquote text content.
 
 Use this example to show a blockquote component between multiple paragraph elements.
 
-{{< example id="blockquote-paragraph-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="blockquote-paragraph-example" github="typography/blockquote.md" show_dark="true" >}}
 <p class="mb-3 text-gray-500 dark:text-gray-400">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
 <div class="grid grid-cols-1 md:gap-6 md:grid-cols-2">
     <p class="mb-3 text-gray-500 dark:text-gray-400">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
@@ -73,7 +73,7 @@ Use this example to show a blockquote component between multiple paragraph eleme
 
 This example can be used for user testimonials by mentioning the author and occupation of the author.
 
-{{< example id="blockquote-testimonial-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="blockquote-testimonial-example" github="typography/blockquote.md" show_dark="true" >}}
 <figure class="max-w-screen-md mx-auto text-center">
     <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
@@ -95,7 +95,7 @@ This example can be used for user testimonials by mentioning the author and occu
 
 Use this example to show a user review with rating stars and the name and occupation of the author.
 
-{{< example id="blockquote-review-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="blockquote-review-example" github="typography/blockquote.md" show_dark="true" >}}
 <figure class="max-w-screen-md">
     <div class="flex items-center mb-4 text-yellow-300">
         <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -135,7 +135,7 @@ Choose from the following examples the blockquote text alignment from starting f
 
 The default alignment of the blockquote text content is the left side of the document.
 
-{{< example id="default-blockquote-left-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="default-blockquote-left-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
     <p>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 </blockquote>
@@ -145,7 +145,7 @@ The default alignment of the blockquote text content is the left side of the doc
 
 Use the `text-center` class from Tailwind CSS to align the text content inside the blockquote to the center.
 
-{{< example id="default-blockquote-center-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="default-blockquote-center-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-xl italic font-semibold text-center text-gray-900 dark:text-white">
     <p>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 </blockquote>
@@ -155,7 +155,7 @@ Use the `text-center` class from Tailwind CSS to align the text content inside t
 
 Use the `text-right` utility class from Tailwind CSS to align the blockquote text content to the right side of the page.
 
-{{< example id="default-blockquote-right-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="default-blockquote-right-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-xl italic font-semibold text-right text-gray-900 dark:text-white">
     <p>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 </blockquote>
@@ -169,7 +169,7 @@ Choose from one of the multiple sizes for the default blockquote component based
 
 Use the `text-lg` font size class from Tailwind CSS to apply the small size for the blockquote component.
 
-{{< example id="default-blockquote-small-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="default-blockquote-small-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-lg italic font-semibold text-gray-900 dark:text-white">
     <p>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 </blockquote>
@@ -179,7 +179,7 @@ Use the `text-lg` font size class from Tailwind CSS to apply the small size for 
 
 Use the `text-xl` utility class to set the default size for the blockquote element.
 
-{{< example id="default-blockquote-medium-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="default-blockquote-medium-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
     <p>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 </blockquote>
@@ -189,7 +189,7 @@ Use the `text-xl` utility class to set the default size for the blockquote eleme
 
 The `text-2xl` class can be used to set a large size for the blockquote component.
 
-{{< example id="default-blockquote-large-example" github="typography/blockquote.md" show_dark=true >}}
+{{< example id="default-blockquote-large-example" github="typography/blockquote.md" show_dark="true" >}}
 <blockquote class="text-2xl italic font-semibold text-gray-900 dark:text-white">
     <p>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 </blockquote>

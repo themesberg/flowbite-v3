@@ -26,7 +26,7 @@ If you want to toggle the visibility, show, or hide the modal you can use the fo
 -   `data-modal-show="modalID"` - show the modal
 -   `data-modal-hide="modalID"` - close the modal
 
-{{< example id="default-modal-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="600" >}}
+{{< example id="default-modal-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="600" >}}
 
 <!-- Modal toggle -->
 <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -73,7 +73,7 @@ If you want to toggle the visibility, show, or hide the modal you can use the fo
 
 Use the `data-modal-backdrop="static"` data attribute to prevent the modal from closing when clicking outside of it. This can be used with situations where you want to force the user to choose an option such as a cookie notice or when taking a survey.
 
-{{< example class="dark:bg-gray-900" github="components/modal.md" class="flex justify-center" iframeHeight="600" show_dark=true >}}
+{{< example class="dark:bg-gray-900" github="components/modal.md" class="flex justify-center" iframeHeight="600" show_dark="true" >}}
 
 <!-- Modal toggle -->
 <button data-modal-target="static-modal" data-modal-toggle="static-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -120,7 +120,7 @@ Use the `data-modal-backdrop="static"` data attribute to prevent the modal from 
 
 You can use this modal example to show a pop-up decision dialog to your users especially when deleting an item and making sure if the user really wants to do that by double confirming.
 
-{{< example id="modal-popup-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="500" >}}
+{{< example id="modal-popup-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="500" >}}
 <button data-modal-target="popup-modal" data-modal-toggle="popup-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
 Toggle modal
 </button>
@@ -153,7 +153,7 @@ Toggle modal
 
 Use this modal example with form input element to receive information from your users with the advantage of not having to link to another page but keeping the user on the currently active page. A great example would be a login or a register form.
 
-{{< example id="modal-form-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="600" >}}
+{{< example id="modal-form-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="600" >}}
 
 <!-- Modal toggle -->
 <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -212,7 +212,7 @@ Use this modal example with form input element to receive information from your 
 
 Use this example of a modal to use within CRUD (Create, Read, Update, Delete) operations to create new items, update existing ones, or delete them with a form inside of the modal.
 
-{{< example id="modal-crud-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="600" >}}
+{{< example id="modal-crud-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="600" >}}
 
 <!-- Modal toggle -->
 <button data-modal-target="crud-modal" data-modal-toggle="crud-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -276,7 +276,7 @@ Use this example of a modal to use within CRUD (Create, Read, Update, Delete) op
 
 This example can be used to show a list of options to your users by using advanced radio inputs with a custom design.
 
-{{< example id="modal-radio-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="600" >}}
+{{< example id="modal-radio-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="600" >}}
 
 <!-- Modal toggle -->
 <button data-modal-target="select-modal" data-modal-toggle="select-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -348,7 +348,7 @@ This example can be used to show a list of options to your users by using advanc
 
 Use this example to show a timeline of events to your users with a modal. This can be used to show a changelog of your product or a timeline of events.
 
-{{< example id="modal-timeline-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="600" >}}
+{{< example id="modal-timeline-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="600" >}}
 
 <!-- Modal toggle -->
 <button data-modal-target="timeline-modal" data-modal-toggle="timeline-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -418,7 +418,7 @@ Use this example to show a timeline of events to your users with a modal. This c
 
 This modal can be used to show the progress of a task to your users. It can be used to show the progress of a file upload or a task that is being processed.
 
-{{< example id="modal-progress-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="600" >}}
+{{< example id="modal-progress-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="600" >}}
 
 <!-- Modal toggle -->
 <button data-modal-target="progress-modal" data-modal-toggle="progress-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
@@ -465,7 +465,7 @@ This modal can be used to show the progress of a task to your users. It can be u
 
 Use this web3 modal component to show crypto wallet connection options like MetaMask or WalletConnect when building a website based on NFT authentication and collectibles.
 
-{{< example id="modal-crypto-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="700" >}}
+{{< example id="modal-crypto-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="700" >}}
 <button type="button" data-modal-target="crypto-modal" data-modal-toggle="crypto-modal" class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700">
 <svg aria-hidden="true" class="w-4 h-4 me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
 Connect wallet
@@ -541,7 +541,7 @@ Connect wallet
 
 You can use four different modal sizing options starting from small to extra large, but keep in mind that the width of these modals will remain the same when browsing on smaller devices.
 
-{{< example id="modal-sizes-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="900" >}}
+{{< example id="modal-sizes-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="900" >}}
 
 <div class="block space-y-4 md:flex md:space-y-0 md:space-x-4 rtl:space-x-reverse">
     <!-- Modal toggle -->
@@ -718,7 +718,7 @@ Use the `data-modal-placement` data attribute on the modal element to set the po
 
 The default position is the center of the page.
 
-{{< example id="modal-placement-example" github="components/modal.md" class="flex justify-center" show_dark=true iframeHeight="800">}}
+{{< example id="modal-placement-example" github="components/modal.md" class="flex justify-center" show_dark="true" iframeHeight="800">}}
 
 <div class="block space-y-4 md:flex md:space-y-0 md:space-x-4 md:rtl:space-x-reverse">
     <!-- Modal toggle -->

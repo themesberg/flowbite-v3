@@ -17,7 +17,7 @@ The select input component can be used to gather information from users based on
 
 Get started with the default example of a select input component to get a single option selection.
 
-{{< example id="default-select-example" github="forms/select.md" show_dark=true >}}
+{{< example id="default-select-example" github="forms/select.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
   <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
   <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -34,7 +34,7 @@ Get started with the default example of a select input component to get a single
 
 Apply the `multiple` attribute to the select component to allow users to select one or more options.
 
-{{< example id="select-multiple-example" github="forms/select.md" show_dark=true >}}
+{{< example id="select-multiple-example" github="forms/select.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
   <label for="countries_multiple" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
   <select multiple id="countries_multiple" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -51,7 +51,7 @@ Apply the `multiple` attribute to the select component to allow users to select 
 
 Use the size attribute for the select component to specify the number of visible options in the list.
 
-{{< example id="select-size-example" github="forms/select.md" show_dark=true >}}
+{{< example id="select-size-example" github="forms/select.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
   <label for="years" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
   <select id="years" size="5" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -70,7 +70,7 @@ Use the size attribute for the select component to specify the number of visible
 
 Apply the `disable` state to the select component to disallow the selection of new options.
 
-{{< example id="select-disabled-example" github="forms/select.md" show_dark=true >}}
+{{< example id="select-disabled-example" github="forms/select.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
   <label for="countries_disabled" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
   <select disabled id="countries_disabled" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -87,7 +87,7 @@ Apply the `disable` state to the select component to disallow the selection of n
 
 Use the underline style for the select component as an alternative appearance.
 
-{{< example id="select-underline-example" github="forms/select.md" show_dark=true >}}
+{{< example id="select-underline-example" github="forms/select.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
   <label for="underline_select" class="sr-only">Underline select</label>
   <select id="underline_select" class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
@@ -108,7 +108,7 @@ Use the underline style for the select component as an alternative appearance.
 
 Use this example if you want to create a multi-level dropdown and select component combination.
 
-{{< example id="select-dropdown-example" github="forms/select.md" show_dark=true iframeHeight="300" >}}
+{{< example id="select-dropdown-example" github="forms/select.md" show_dark="true" iframeHeight="300" >}}
 <form class="max-w-sm mx-auto">
   <div class="flex">
       <button id="states-button" data-dropdown-toggle="dropdown-states" class="shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-500 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600" type="button">
@@ -172,7 +172,7 @@ Use this example if you want to create a multi-level dropdown and select compone
 
 Get started with the small, default, and large sizes for the select component from the example below.
 
-{{< example id="select-sizes-example" github="forms/select.md" show_dark=true >}}
+{{< example id="select-sizes-example" github="forms/select.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
   <label for="small" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Small select</label>
   <select id="small" class="block w-full p-2 mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">

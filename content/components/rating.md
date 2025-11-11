@@ -19,7 +19,7 @@ You can find multiple examples on this page including different styles, sizes, a
 
 Use this simple example of a star rating component for showing review results.
 
-{{< example id="default-rating-example" class="flex justify-center" github="components/rating.md" show_dark=true >}}
+{{< example id="default-rating-example" class="flex justify-center" github="components/rating.md" show_dark="true" >}}
 
 <div class="flex items-center">
     <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -44,7 +44,7 @@ Use this simple example of a star rating component for showing review results.
 
 If you also want to show a text near the stars you can use this example as a reference.
 
-{{< example id="rating-text-example" class="flex justify-center" github="components/rating.md" show_dark=true >}}
+{{< example id="rating-text-example" class="flex justify-center" github="components/rating.md" show_dark="true" >}}
 
 <div class="flex items-center">
     <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -72,7 +72,7 @@ If you also want to show a text near the stars you can use this example as a ref
 
 Aggregate more results by using this example to show the amount of reviews and the average score.
 
-{{< example id="rating-count-example" class="flex justify-center" github="components/rating.md" show_dark=true >}}
+{{< example id="rating-count-example" class="flex justify-center" github="components/rating.md" show_dark="true" >}}
 
 <div class="flex items-center">
     <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -88,7 +88,7 @@ Aggregate more results by using this example to show the amount of reviews and t
 
 Check out the different sizing options for the star review component from small, medium, and large.
 
-{{< example id="rating-star-sizes-example" class="flex flex-col items-center" github="components/rating.md" show_dark=true >}}
+{{< example id="rating-star-sizes-example" class="flex flex-col items-center" github="components/rating.md" show_dark="true" >}}
 
 <div class="flex items-center mb-5">
     <svg class="w-4 h-4 ms-1 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -147,7 +147,7 @@ Check out the different sizing options for the star review component from small,
 
 This advanced rating component can be used to also show how many reviews have been posted for each star rating (eg. 4% for the 2 star ratings, 17% for 4 star rating etc).
 
-{{< example id="rating-advanced-example" github="components/rating.md" show_dark=true >}}
+{{< example id="rating-advanced-example" github="components/rating.md" show_dark="true" >}}
 
 <div class="flex items-center mb-2">
     <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -211,7 +211,7 @@ This advanced rating component can be used to also show how many reviews have be
 
 This component can be used to break up a general rating score into multiple categories using progress bars.
 
-{{< example id="rating-score-example" github="components/rating.md" show_dark=true >}}
+{{< example id="rating-score-example" github="components/rating.md" show_dark="true" >}}
 
 <div class="flex items-center mb-5">
     <p class="bg-blue-100 text-blue-800 text-sm font-semibold inline-flex items-center p-1.5 rounded-sm dark:bg-blue-200 dark:text-blue-800">8.7</p>
@@ -295,7 +295,7 @@ This component can be used to break up a general rating score into multiple cate
 
 Use this component to show a single rating comment and its score alongside other components such as the user profile avatar, name, post date, and more.
 
-{{< example id="rating-comment-example" github="components/rating.md" show_dark=true >}}
+{{< example id="rating-comment-example" github="components/rating.md" show_dark="true" >}}
 
 <article>
     <div class="flex items-center mb-4">
@@ -340,7 +340,7 @@ Use this component to show a single rating comment and its score alongside other
 
 Use this component to show the review content from a user alongside the avatar, location, details, and the score inside a card element.
 
-{{< example id="rating-review-example" github="components/rating.md" show_dark=true >}}
+{{< example id="rating-review-example" github="components/rating.md" show_dark="true" >}}
 
 <article class="md:gap-8 md:grid md:grid-cols-3">
     <div>

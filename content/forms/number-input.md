@@ -20,7 +20,7 @@ The examples on this page have basic functionality coded with JavaScript and the
 
 Use this component to set a number value inside a form field by applying the `type="number"` attribute.
 
-{{< example id="default-number-input" github="components/number-input.md" show_dark=true >}}
+{{< example id="default-number-input" github="components/number-input.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
     <label for="number-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select a number:</label>
     <input type="number" id="number-input" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="90210" required />
@@ -31,7 +31,7 @@ Use this component to set a number value inside a form field by applying the `ty
 
 Use this example with an icon and helper text to set a ZIP code value inside a form field by also applying the `pattern` attribute to validate the input using a regular expression for a 5 digit number.
 
-{{< example id="zip-code-number-input" github="components/number-input.md" show_dark=true >}}
+{{< example id="zip-code-number-input" github="components/number-input.md" show_dark="true" >}}
 <form class="max-w-sm mx-auto">
     <label for="zip-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ZIP code:</label>
     <div class="relative">
@@ -50,7 +50,7 @@ Use this example with an icon and helper text to set a ZIP code value inside a f
 
 Use this example to set a phone number inside a form field based on the `type="phone"` attribute and a dropdown menu to select the country code.
 
-{{< example id="phone-code-number-input" github="components/number-input.md" show_dark=true iframeHeight="360" >}}
+{{< example id="phone-code-number-input" github="components/number-input.md" show_dark="true" iframeHeight="360" >}}
 <form class="max-w-sm mx-auto">
     <div class="flex items-center">
         <button id="dropdown-phone-button" data-dropdown-toggle="dropdown-phone" class="shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600" type="button">
@@ -127,7 +127,7 @@ If you have the [Flowbite JS](https://flowbite.com/docs/getting-started/quicksta
 - `data-input-counter-increment` - increment the value of the input field
 - `data-input-counter-decrement` - decrement the value of the input field
 
-{{< example id="control-number-input" github="components/number-input.md" show_dark=true >}}
+{{< example id="control-number-input" github="components/number-input.md" show_dark="true" >}}
 <form class="max-w-xs mx-auto">
     <label for="quantity-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose quantity:</label>
     <div class="relative flex items-center max-w-[8rem]">
@@ -151,7 +151,7 @@ If you have the [Flowbite JS](https://flowbite.com/docs/getting-started/quicksta
 
 Use this example to also add an icon inside the input field to improve the user experience.
 
-{{< example id="control-icon-number-input" github="components/number-input.md" show_dark=true >}}
+{{< example id="control-icon-number-input" github="components/number-input.md" show_dark="true" >}}
 <form class="max-w-xs mx-auto">
     <label for="bedrooms-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose quantity:</label>
     <div class="relative flex items-center max-w-[11rem]">
@@ -181,7 +181,7 @@ Use this example to also add an icon inside the input field to improve the user 
 
 Use this example as an alternative style to the control buttons example above.
 
-{{< example id="control-icon-number-input" github="components/number-input.md" show_dark=true >}}
+{{< example id="control-icon-number-input" github="components/number-input.md" show_dark="true" >}}
 <form class="max-w-xs mx-auto">
     <label for="counter-input" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Choose quantity:</label>
     <div class="relative flex items-center">
@@ -204,7 +204,7 @@ Use this example as an alternative style to the control buttons example above.
 
 This component can be used to set a currency value inside a form field when you need to set a price.
 
-{{< example id="control-number-input" github="components/number-input.md" show_dark=true iframeHeight="290" >}}
+{{< example id="control-number-input" github="components/number-input.md" show_dark="true" iframeHeight="290" >}}
 <form class="max-w-[18rem] mx-auto flex">
     <label for="currency-input" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Your Email</label>
     <div class="relative w-full">
@@ -262,7 +262,7 @@ This component can be used to set a currency value inside a form field when you 
 
 Use this component to set the information needed when making an online transaction with a credit card by adding the card number, expiration date, and security code. The component uses the [Flowbite Datepicker](https://flowbite.com/docs/components/datepicker/).
 
-{{< example id="zip-code-number-input" github="components/number-input.md" show_dark=true iframeHeight="540" >}}
+{{< example id="zip-code-number-input" github="components/number-input.md" show_dark="true" iframeHeight="540" >}}
 <form class="max-w-sm mx-auto">
     <label for="card-number-input" class="sr-only">Card number:</label>
     <div class="relative">
@@ -294,7 +294,7 @@ Use this component to set the information needed when making an online transacti
 
 Use this example of a pin code input to set a 6 digit code. This can be used when setting up a new account or when making a payment and the code is sent via phone or email.
 
-{{< example id="zip-code-number-input" github="components/number-input.md" show_dark=true javascript=`
+{{< example id="zip-code-number-input" github="components/number-input.md" show_dark="true" javascript=`
 // use this simple function to automatically focus on the next input
 function focusNextInput(el, prevId, nextId) {
     if (el.value.length === 0) {
@@ -373,7 +373,7 @@ document.querySelectorAll('[data-focus-input-init]').forEach(function(element) {
 
 This example can be used to set the value of a number input field by sliding the range slider component or by typing the value in the input field. The component uses the [Flowbite Range Slider](https://flowbite.com/docs/components/range-slider/).
 
-{{< example id="zip-code-number-input" github="components/number-input.md" show_dark=true iframeHeight="290" disable_init_js="true" javascript=`
+{{< example id="zip-code-number-input" github="components/number-input.md" show_dark="true" iframeHeight="290" disable_init_js="true" javascript=`
 // Get the elements
 var rangeInput = document.getElementById('price-range-input');
 var currencyInput = document.getElementById('currency-input');
@@ -448,7 +448,7 @@ rangeInput.addEventListener('input', updateCurrencyInput);
 
 Use this example of two number input fields and dropdowns to convert currency and even from fiat to crypto.
 
-{{< example id="control-number-input" github="components/number-input.md" show_dark=true iframeHeight="290" disable_init_js="true" >}}
+{{< example id="control-number-input" github="components/number-input.md" show_dark="true" iframeHeight="290" disable_init_js="true" >}}
 <form class="max-w-xl mx-auto">
     <div class="space-x-0 space-y-4 sm:space-y-0 sm:space-x-4 rtl:space-x-reverse flex items-center flex-col sm:flex-row mb-4">
         <div class="flex">
@@ -565,7 +565,7 @@ Use this example of two number input fields and dropdowns to convert currency an
 
 This example can be used to add multiple number input fields with quantity selectors and control buttons to use for E-commerce UI similar to projects like AirBnb or Booking.
 
-{{< example id="control-icon-number-input" github="components/number-input.md" show_dark=true >}}
+{{< example id="control-icon-number-input" github="components/number-input.md" show_dark="true" >}}
 <form class="max-w-xs mx-auto">
     <label for="bedrooms-input" class="sr-only">Choose bedrooms number:</label>
     <div class="relative flex items-center mb-2">
@@ -639,7 +639,7 @@ By using the InputCounter object from the Flowbite JS API, you ca set the min an
 
 These values will be enforced and validated whenever the user clicks on one of the buttons or tries to introduce the value manually.
 
-{{< example id="control-number-min-max-input" github="components/number-input.md" show_dark=true >}}
+{{< example id="control-number-min-max-input" github="components/number-input.md" show_dark="true" >}}
 <form class="max-w-xs mx-auto">
     <label for="quantity-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Choose quantity:</label>
     <div class="relative flex items-center max-w-[8rem]">
