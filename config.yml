@@ -1,6 +1,6 @@
 languageCode:           "en"
 title:                  "Flowbite"
-baseURL:                "https://v3.flowbite.com/docs/"
+baseURL:                "https://v3.flowbite.com"
 enableInlineShortcodes: true
 
 params:
