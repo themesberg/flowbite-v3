@@ -2165,7 +2165,7 @@ Use this example of a table where we show a data set of users and showing a prof
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-1.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Neil Sims</div>
                         <div class="font-normal text-gray-500">neil.sims@flowbite.com</div>
@@ -2191,7 +2191,7 @@ Use this example of a table where we show a data set of users and showing a prof
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Bonnie Green</div>
                         <div class="font-normal text-gray-500">bonnie@flowbite.com</div>
@@ -2217,7 +2217,7 @@ Use this example of a table where we show a data set of users and showing a prof
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-2.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Jese Leos</div>
                         <div class="font-normal text-gray-500">jese@flowbite.com</div>
@@ -2243,7 +2243,7 @@ Use this example of a table where we show a data set of users and showing a prof
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Thomas Lean</div>
                         <div class="font-normal text-gray-500">thomes@flowbite.com</div>
@@ -2269,7 +2269,7 @@ Use this example of a table where we show a data set of users and showing a prof
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-4.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Leslie Livingston</div>
                         <div class="font-normal text-gray-500">leslie@flowbite.com</div>
@@ -2322,7 +2322,7 @@ Get started with this example to show a list of products inside the table and sh
         <tbody>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <td class="p-4">
-                    <img src="/docs/images/products/apple-watch.png" class="w-16 md:w-32 max-w-full max-h-full" alt="Apple Watch">
+                    <img src="/images/products/apple-watch.png" class="w-16 md:w-32 max-w-full max-h-full" alt="Apple Watch">
                 </td>
                 <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
                     Apple Watch
@@ -2355,7 +2355,7 @@ Get started with this example to show a list of products inside the table and sh
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <td class="p-4">
-                    <img src="/docs/images/products/imac.png" class="w-16 md:w-32 max-w-full max-h-full" alt="Apple iMac">
+                    <img src="/images/products/imac.png" class="w-16 md:w-32 max-w-full max-h-full" alt="Apple iMac">
                 </td>
                 <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
                     iMac 27"
@@ -2388,7 +2388,7 @@ Get started with this example to show a list of products inside the table and sh
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <td class="p-4">
-                    <img src="/docs/images/products/iphone-12.png" class="w-16 md:w-32 max-w-full max-h-full" alt="iPhone 12">
+                    <img src="/images/products/iphone-12.png" class="w-16 md:w-32 max-w-full max-h-full" alt="iPhone 12">
                 </td>
                 <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
                     IPhone 12 
@@ -2503,7 +2503,7 @@ Use this example to show a modal with a form where you can edit table data by cl
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-1.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Neil Sims</div>
                         <div class="font-normal text-gray-500">neil.sims@flowbite.com</div>
@@ -2530,7 +2530,7 @@ Use this example to show a modal with a form where you can edit table data by cl
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Bonnie Green</div>
                         <div class="font-normal text-gray-500">bonnie@flowbite.com</div>
@@ -2557,7 +2557,7 @@ Use this example to show a modal with a form where you can edit table data by cl
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-2.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Jese Leos</div>
                         <div class="font-normal text-gray-500">jese@flowbite.com</div>
@@ -2584,7 +2584,7 @@ Use this example to show a modal with a form where you can edit table data by cl
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Thomas Lean</div>
                         <div class="font-normal text-gray-500">thomes@flowbite.com</div>
@@ -2611,7 +2611,7 @@ Use this example to show a modal with a form where you can edit table data by cl
                     </div>
                 </td>
                 <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Jese image">
+                    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-4.jpg" alt="Jese image">
                     <div class="ps-3">
                         <div class="text-base font-semibold">Leslie Livingston</div>
                         <div class="font-normal text-gray-500">leslie@flowbite.com</div>

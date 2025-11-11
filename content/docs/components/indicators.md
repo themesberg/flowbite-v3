@@ -65,11 +65,11 @@ Use this example to show a status indicator for the currently logged in user by 
 {{< example id="status-indicator-example" github="components/indicators.md" class="flex items-center justify-center" show_dark=true >}}
 
 <div class="relative me-4">
-    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="profile image">
+    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="profile image">
     <span class="top-0 start-7 absolute w-3.5 h-3.5 bg-green-500 border-2 border-white dark:border-gray-800 rounded-full"></span>
 </div>
 <div class="relative">
-    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="profile image">
+    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="profile image">
     <span class="top-0 start-7 absolute w-3.5 h-3.5 bg-red-500 border-2 border-white dark:border-gray-800 rounded-full"></span>
 </div>
 {{< /example >}}
@@ -84,7 +84,7 @@ This example can be used to add an indicator inside of a badge component.
     <li class="py-3 sm:py-4">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
             <div class="shrink-0">
-                <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Neil image">
+                <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-5.jpg" alt="Neil image">
             </div>
             <div class="flex-1 min-w-0">
                 <p class="text-sm font-semibold text-gray-900 truncate dark:text-white">
@@ -103,7 +103,7 @@ This example can be used to add an indicator inside of a badge component.
     <li class="py-3 sm:py-4">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
             <div class="shrink-0">
-                <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Neil image">
+                <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-4.jpg" alt="Neil image">
             </div>
             <div class="flex-1 min-w-0">
                 <p class="text-sm font-semibold text-gray-900 truncate dark:text-white">

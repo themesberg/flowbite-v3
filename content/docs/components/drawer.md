@@ -275,10 +275,10 @@ Use this example if you want to add form elements inside the drawer component in
          </div>
       </div>
       <div class="flex mb-4 -space-x-4 rtl:space-x-reverse">
-         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-5.jpg" alt="">
-         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-2.jpg" alt="">
-         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-3.jpg" alt="">
-         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-4.jpg" alt="">
+         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-5.jpg" alt="">
+         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-2.jpg" alt="">
+         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-3.jpg" alt="">
+         <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-4.jpg" alt="">
       </div>
       <button type="submit" class="text-white justify-center flex items-center bg-blue-700 hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M18 2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2ZM2 18V7h6.7l.4-.409A4.309 4.309 0 0 1 15.753 7H18v11H2Z"/>

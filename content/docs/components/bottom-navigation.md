@@ -309,7 +309,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
     <ul>
         <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
-                <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-1.jpg" alt="Jese Leos Avatar">
+                <img class="me-3 rounded-full w-11 h-11" src="/images/people/profile-picture-1.jpg" alt="Jese Leos Avatar">
                 <div>
                     <p class="text-sm text-gray-500 dark:text-gray-400">New message from <span class="font-medium text-gray-900 dark:text-white">Jese Leos</span>: "Hey, what's up? All set for the presentation?"</p>
                     <span class="text-xs text-blue-600 dark:text-blue-500">a few moments ago</span>
@@ -318,7 +318,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
         </li>
         <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
-                <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-2.jpg" alt="Joseph McFall Avatar">
+                <img class="me-3 rounded-full w-11 h-11" src="/images/people/profile-picture-2.jpg" alt="Joseph McFall Avatar">
                 <div>
                     <p class="text-sm text-gray-500 dark:text-gray-400"><span class="font-medium text-gray-900 dark:text-white">Joseph McFall</span> and <span class="font-medium text-gray-900 dark:text-white">5 others</span> started following you.</p>
                     <span class="text-xs text-blue-600 dark:text-blue-500">10 minutes ago</span>
@@ -327,7 +327,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
         </li>
         <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
-                <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie Green Avatar">
+                <img class="me-3 rounded-full w-11 h-11" src="/images/people/profile-picture-3.jpg" alt="Bonnie Green Avatar">
                 <div>
                     <p class="text-sm text-gray-500 dark:text-gray-400"><span class="font-medium text-gray-900 dark:text-white">Bonnie Green</span> and <span class="font-medium text-gray-900 dark:text-white">141 others</span> love your story. See it and view more stories.</p>
                     <span class="text-xs text-blue-600 dark:text-blue-500">23 minutes ago</span>
@@ -336,7 +336,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
         </li>
         <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
-                <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-4.jpg" alt="Leslie Livingston Avatar">
+                <img class="me-3 rounded-full w-11 h-11" src="/images/people/profile-picture-4.jpg" alt="Leslie Livingston Avatar">
                 <div>
                     <p class="text-sm text-gray-500 dark:text-gray-400"><span class="font-medium text-gray-900 dark:text-white">Leslie Livingston</span> mentioned you in a comment: <span class="font-medium text-blue-600 dark:text-blue-500 hover:underline">@bonnie.green</span> what do you say?</p>
                     <span class="text-xs text-blue-600 dark:text-blue-500">23 minutes ago</span>
@@ -345,7 +345,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
         </li>
         <li>
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
-                <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-5.jpg" alt="Robert Brown Avatar">
+                <img class="me-3 rounded-full w-11 h-11" src="/images/people/profile-picture-5.jpg" alt="Robert Brown Avatar">
                 <div>
                     <p class="text-sm text-gray-500 dark:text-gray-400"><span class="font-medium text-gray-900 dark:text-white">Robert Brown</span> posted a new video: Glassmorphism - learn how to implement the new design trend. </p>
                     <span class="text-xs text-blue-600 dark:text-blue-500">23 minutes ago</span>
@@ -497,7 +497,7 @@ Use this component to show control buttons for a video or audio that is playing 
 
 <div class="fixed bottom-0 left-0 z-50 grid w-full h-24 grid-cols-1 px-8 bg-white border-t border-gray-200 md:grid-cols-3 dark:bg-gray-700 dark:border-gray-600">
     <div class="items-center justify-center hidden me-auto md:flex">
-        <img class="h-8 me-3 rounded-sm" src="/docs/images/misc/flowbite-yt-screenshot.png" alt="Video preview">
+        <img class="h-8 me-3 rounded-sm" src="/images/misc/flowbite-yt-screenshot.png" alt="Video preview">
         <span class="text-sm text-gray-500 dark:text-gray-400">Flowbite Crash Course</span>
     </div>
     <div class="flex items-center w-full">

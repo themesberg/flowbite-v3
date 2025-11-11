@@ -92,7 +92,7 @@ Get started with this example to show a popover with extra information inside pa
   </svg></a>
             </div>
         </div>
-        <img src="/docs/images/popovers/italy.png" class="h-full col-span-2" alt="Italy map" />
+        <img src="/images/popovers/italy.png" class="h-full col-span-2" alt="Italy map" />
     </div>
     <div data-popper-arrow></div>
 </div>

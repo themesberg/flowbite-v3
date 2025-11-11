@@ -528,49 +528,49 @@ This example can be used when you want to show a long list of items that won't a
   <ul class="h-48 py-2 overflow-y-auto text-gray-700 dark:text-gray-200" aria-labelledby="dropdownUsersButton">
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-1.jpg" alt="Jese image">
         Jese Leos
       </a>
     </li>
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-2.jpg" alt="Jese image">
         Robert Gough
       </a>
     </li>
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
         Bonnie Green
       </a>
     </li>
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-4.jpg" alt="Jese image">
         Leslie Livingston
       </a>
     </li>
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-5.jpg" alt="Jese image">
         Michael Gough
       </a>
     </li>
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-2.jpg" alt="Jese image">
         Joseph Mcfall
       </a>
     </li>
           <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
         Roberta Casas
       </a>
     </li>
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-        <img class="w-6 h-6 me-2 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Jese image">
+        <img class="w-6 h-6 me-2 rounded-full" src="/images/people/profile-picture-1.jpg" alt="Jese image">
         Neil Sims
       </a>
     </li>
@@ -736,7 +736,7 @@ Use this example to show a list of notifications inside your application by prov
   <div class="divide-y divide-gray-100 dark:divide-gray-700">
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
       <div class="shrink-0">
-        <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-1.jpg" alt="Jese image">
+        <img class="rounded-full w-11 h-11" src="/images/people/profile-picture-1.jpg" alt="Jese image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-blue-600 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
             <path d="M1 18h16a1 1 0 0 0 1-1v-6h-4.439a.99.99 0 0 0-.908.6 3.978 3.978 0 0 1-7.306 0 .99.99 0 0 0-.908-.6H0v6a1 1 0 0 0 1 1Z"/>
@@ -751,7 +751,7 @@ Use this example to show a list of notifications inside your application by prov
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
       <div class="shrink-0">
-        <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-2.jpg" alt="Joseph image">
+        <img class="rounded-full w-11 h-11" src="/images/people/profile-picture-2.jpg" alt="Joseph image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-gray-900 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
             <path d="M6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Zm11-3h-2V5a1 1 0 0 0-2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 0 0 2 0V9h2a1 1 0 1 0 0-2Z"/>
@@ -765,7 +765,7 @@ Use this example to show a list of notifications inside your application by prov
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
       <div class="shrink-0">
-        <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image">
+        <img class="rounded-full w-11 h-11" src="/images/people/profile-picture-3.jpg" alt="Bonnie image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-red-600 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
             <path d="M17.947 2.053a5.209 5.209 0 0 0-3.793-1.53A6.414 6.414 0 0 0 10 2.311 6.482 6.482 0 0 0 5.824.5a5.2 5.2 0 0 0-3.8 1.521c-1.915 1.916-2.315 5.392.625 8.333l7 7a.5.5 0 0 0 .708 0l7-7a6.6 6.6 0 0 0 2.123-4.508 5.179 5.179 0 0 0-1.533-3.793Z"/>
@@ -779,7 +779,7 @@ Use this example to show a list of notifications inside your application by prov
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
       <div class="shrink-0">
-        <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-4.jpg" alt="Leslie image">
+        <img class="rounded-full w-11 h-11" src="/images/people/profile-picture-4.jpg" alt="Leslie image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-green-400 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
             <path d="M18 0H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2v4a1 1 0 0 0 1.707.707L10.414 13H18a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5 4h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2ZM5 4h5a1 1 0 1 1 0 2H5a1 1 0 0 1 0-2Zm2 5H5a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Zm9 0h-6a1 1 0 0 1 0-2h6a1 1 0 1 1 0 2Z"/>
@@ -793,7 +793,7 @@ Use this example to show a list of notifications inside your application by prov
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
       <div class="shrink-0">
-        <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-5.jpg" alt="Robert image">
+        <img class="rounded-full w-11 h-11" src="/images/people/profile-picture-5.jpg" alt="Robert image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-purple-500 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14">
             <path d="M11 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm8.585 1.189a.994.994 0 0 0-.9-.138l-2.965.983a1 1 0 0 0-.685.949v8a1 1 0 0 0 .675.946l2.965 1.02a1.013 1.013 0 0 0 1.032-.242A1 1 0 0 0 20 12V2a1 1 0 0 0-.415-.811Z"/>
@@ -824,7 +824,7 @@ This example can be used to show a list of menu items and options when a user is
 {{< example id="dropdown-avatar-example" class="flex justify-center" github="components/dropdowns.md" show_dark=true iframeHeight="370" >}}
 <button id="dropdownUserAvatarButton" data-dropdown-toggle="dropdownAvatar" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" type="button">
 <span class="sr-only">Open user menu</span>
-<img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="user photo">
+<img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="user photo">
 </button>
 
 <!-- Dropdown menu -->
@@ -857,7 +857,7 @@ Use this example to also show the name or email of the user next to the avatar f
 {{< example id="dropdown-avatar-name-example" class="flex justify-center" github="components/dropdowns.md" show_dark=true iframeHeight="370" >}}
 <button id="dropdownAvatarNameButton" data-dropdown-toggle="dropdownAvatarName" class="flex items-center text-sm pe-1 font-medium text-gray-900 rounded-full hover:text-blue-600 dark:hover:text-blue-500 md:me-0 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-white" type="button">
 <span class="sr-only">Open user menu</span>
-<img class="w-8 h-8 me-2 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="user photo">
+<img class="w-8 h-8 me-2 rounded-full" src="/images/people/profile-picture-3.jpg" alt="user photo">
 Bonnie Green
 <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
@@ -896,7 +896,7 @@ You can also use the dropdown element inside a navigation bar and add a second l
 <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2.5">
     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+        <img src="https://flowbite.com/images/logo.svg" class="h-8" alt="Flowbite Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
     </a>
     <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 ms-3 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">

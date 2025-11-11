@@ -85,7 +85,7 @@ This example can be used to set a hyperlink on an image inside a card component.
 {{< example id="link-image-example" class="flex justify-center" github="typography/links.md" show_dark=true >}}
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+        <img class="rounded-t-lg" src="/images/blog/image-1.jpg" alt="" />
     </a>
     <div class="p-5">
         <a href="#">

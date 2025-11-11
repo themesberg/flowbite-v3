@@ -18,8 +18,8 @@ The avatar component can be used as a visual identifier for a user profile on yo
 Use this example to create a circle and rounded avatar on an image element.
 
 {{< example id="default-avatar-example" class="flex justify-center gap-4" github="components/avatar.md" show_dark=true >}}
-<img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Rounded avatar">
-<img class="w-10 h-10 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="Default avatar">
+<img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="Rounded avatar">
+<img class="w-10 h-10 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="Default avatar">
 {{< /example >}}
 
 ## Bordered
@@ -27,7 +27,7 @@ Use this example to create a circle and rounded avatar on an image element.
 Apply a border around the avatar component you can use the `ring-{color}` class from Tailwind CSS.
 
 {{< example id="avatar-bordered-example" class="flex justify-center" github="components/avatar.md" show_dark=true >}}
-<img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/docs/images/people/profile-picture-5.jpg" alt="Bordered avatar">
+<img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/images/people/profile-picture-5.jpg" alt="Bordered avatar">
 {{< /example >}}
 
 ## Placeholder icon
@@ -60,21 +60,21 @@ Use this example to show a tooltip when hovering over the avatar.
       Jese Leos
       <div class="tooltip-arrow" data-popper-arrow></div>
   </div>
-  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="Medium avatar">
+  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="Medium avatar">
 </div>
 <div>
   <div id="tooltip-roberta" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
       Roberta Casas
       <div class="tooltip-arrow" data-popper-arrow></div>
   </div>
-  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/docs/images/people/profile-picture-4.jpg" alt="Medium avatar">
+  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/people/profile-picture-4.jpg" alt="Medium avatar">
 </div>
 <div>
   <div id="tooltip-bonnie" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
       Bonnie Green
       <div class="tooltip-arrow" data-popper-arrow></div>
   </div>
-  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/docs/images/people/profile-picture-3.jpg" alt="Medium avatar">
+  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/people/profile-picture-3.jpg" alt="Medium avatar">
 </div>
 {{< /example >}}
 
@@ -84,19 +84,19 @@ Use a dot element relative to the avatar component as an indicator for the user 
 
 {{< example id="avatar-dot-indicator-example" class="flex justify-center gap-4" github="components/avatar.md" show_dark=true >}}
 <div class="relative">
-    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="">
+    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="">
     <span class="top-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
 </div>
 <div class="relative">
-    <img class="w-10 h-10 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="">
+    <img class="w-10 h-10 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="">
     <span class="absolute top-0 left-8 transform -translate-y-1/2 w-3.5 h-3.5 bg-red-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
 </div>
 <div class="relative">
-    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="">
+    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="">
     <span class="bottom-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
 </div>
 <div class="relative">
-    <img class="w-10 h-10 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="">
+    <img class="w-10 h-10 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="">
     <span class="absolute bottom-0 left-8 transform translate-y-1/4 w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
 </div>
 {{< /example >}}
@@ -107,15 +107,15 @@ Use this example if you want to stack a group of users by overlapping the avatar
 
 {{< example id="avatar-stacked-example" class="flex justify-center gap-4 rtl:gap-8" github="components/avatar.md" show_dark=true >}}
 <div class="flex -space-x-4 rtl:space-x-reverse">
-    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-5.jpg" alt="">
-    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-2.jpg" alt="">
-    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-3.jpg" alt="">
-    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-4.jpg" alt="">
+    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-5.jpg" alt="">
+    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-2.jpg" alt="">
+    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-3.jpg" alt="">
+    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-4.jpg" alt="">
 </div>
 <div class="flex -space-x-4 rtl:space-x-reverse">
-    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-5.jpg" alt="">
-    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-2.jpg" alt="">
-    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-3.jpg" alt="">
+    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-5.jpg" alt="">
+    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-2.jpg" alt="">
+    <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-3.jpg" alt="">
     <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
 </div>
 {{< /example >}}
@@ -126,7 +126,7 @@ This example can be used if you want to show additional information in the form 
 
 {{< example id="avatar-text-example" class="flex justify-center" github="components/avatar.md" show_dark=true >}}
 <div class="flex items-center gap-4">
-    <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="">
+    <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="">
     <div class="font-medium dark:text-white">
         <div>Jese Leos</div>
         <div class="text-sm text-gray-500 dark:text-gray-400">Joined in August 2014</div>
@@ -139,7 +139,7 @@ This example can be used if you want to show additional information in the form 
 Use this example if you want to show a dropdown menu when clicking on the avatar component.
 
 {{< example id="avatar-user-dropdown-example" class="flex justify-center gap-4" github="components/avatar.md" show_dark=true iframeHeight="360" >}}
-<img id="avatarButton" type="button" data-dropdown-toggle="userDropdown" data-dropdown-placement="bottom-start" class="w-10 h-10 rounded-full cursor-pointer" src="/docs/images/people/profile-picture-5.jpg" alt="User dropdown">
+<img id="avatarButton" type="button" data-dropdown-toggle="userDropdown" data-dropdown-placement="bottom-start" class="w-10 h-10 rounded-full cursor-pointer" src="/images/people/profile-picture-5.jpg" alt="User dropdown">
 
 <!-- Dropdown menu -->
 <div id="userDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
@@ -169,9 +169,9 @@ Use this example if you want to show a dropdown menu when clicking on the avatar
 Choose from multiple sizing options for the avatar component from this example.
 
 {{< example id="avatar-sizes-example" class="flex flex-wrap items-center justify-center gap-6" github="components/avatar.md" show_dark=true >}}
-<img class="w-6 h-6 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="Extra small avatar">
-<img class="w-8 h-8 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="Small avatar">
-<img class="w-10 h-10 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="Medium avatar">
-<img class="w-20 h-20 rounded-sm" src="/docs/images/people/profile-picture-5.jpg" alt="Large avatar">
-<img class="rounded-sm w-36 h-36" src="/docs/images/people/profile-picture-5.jpg" alt="Extra large avatar">
+<img class="w-6 h-6 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="Extra small avatar">
+<img class="w-8 h-8 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="Small avatar">
+<img class="w-10 h-10 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="Medium avatar">
+<img class="w-20 h-20 rounded-sm" src="/images/people/profile-picture-5.jpg" alt="Large avatar">
+<img class="rounded-sm w-36 h-36" src="/images/people/profile-picture-5.jpg" alt="Extra large avatar">
 {{< /example >}}

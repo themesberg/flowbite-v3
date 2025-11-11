@@ -233,7 +233,7 @@ This example can be used to show more details for each list item such as the use
    <li class="pb-3 sm:pb-4">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Neil image">
+            <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-1.jpg" alt="Neil image">
          </div>
          <div class="flex-1 min-w-0">
             <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -251,7 +251,7 @@ This example can be used to show more details for each list item such as the use
    <li class="py-3 sm:py-4">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Neil image">
+            <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Neil image">
          </div>
          <div class="flex-1 min-w-0">
             <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -269,7 +269,7 @@ This example can be used to show more details for each list item such as the use
    <li class="py-3 sm:py-4">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Neil image">
+            <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-2.jpg" alt="Neil image">
          </div>
          <div class="flex-1 min-w-0">
             <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -287,7 +287,7 @@ This example can be used to show more details for each list item such as the use
    <li class="py-3 sm:py-4">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Neil image">
+            <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-5.jpg" alt="Neil image">
          </div>
          <div class="flex-1 min-w-0">
             <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -305,7 +305,7 @@ This example can be used to show more details for each list item such as the use
    <li class="pt-3 pb-0 sm:pt-4">
       <div class="flex items-center space-x-4 rtl:space-x-reverse">
          <div class="shrink-0">
-            <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Neil image">
+            <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-4.jpg" alt="Neil image">
          </div>
          <div class="flex-1 min-w-0">
             <p class="text-sm font-medium text-gray-900 truncate dark:text-white">

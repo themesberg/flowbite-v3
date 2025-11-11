@@ -22,7 +22,7 @@ Use this example to show a simple chat bubble with a text message, user profile 
 
 {{< example id="chat-bubble-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="380" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -64,7 +64,7 @@ This example can be used to show a voice note message with control buttons and a
 
 {{< example id="voice-note-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="380" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col gap-2.5 w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -143,7 +143,7 @@ Use this example to send a file attachment inside a chat bubble with the ability
 
 {{< example id="file-attachement-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="380" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie Green image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Bonnie Green image">
    <div class="flex flex-col gap-1">
       <div class="flex flex-col w-full max-w-[326px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
          <div class="flex items-center space-x-2 rtl:space-x-reverse">
@@ -227,7 +227,7 @@ This example can be used to show an image attachment with a download button when
 
 {{< example id="image-attachment-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="480" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie Green image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Bonnie Green image">
    <div class="flex flex-col gap-1">
       <div class="flex flex-col w-full max-w-[326px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
          <div class="flex items-center space-x-2 rtl:space-x-reverse mb-2">
@@ -247,7 +247,7 @@ This example can be used to show an image attachment with a download button when
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
             </div>
-            <img src="/docs/images/blog/image-2.jpg" class="rounded-lg" />
+            <img src="/images/blog/image-2.jpg" class="rounded-lg" />
          </div>
          <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
       </div>
@@ -285,7 +285,7 @@ Use this example to show an image gallery based on a grid layout with the abilit
 
 {{< example id="image-gallery-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="480" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie Green image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Bonnie Green image">
    <div class="flex flex-col gap-1">
       <div class="flex flex-col w-full max-w-[326px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
          <div class="flex items-center space-x-2 rtl:space-x-reverse mb-2">
@@ -306,7 +306,7 @@ Use this example to show an image gallery based on a grid layout with the abilit
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-1.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-1.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <div class="absolute w-full h-full bg-gray-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
@@ -320,7 +320,7 @@ Use this example to show an image gallery based on a grid layout with the abilit
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-2.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-2.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <div class="absolute w-full h-full bg-gray-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
@@ -334,7 +334,7 @@ Use this example to show an image gallery based on a grid layout with the abilit
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-3.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-3.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <button class="absolute w-full h-full bg-gray-900/90 hover:bg-gray-900/50 transition-all duration-300 rounded-lg flex items-center justify-center">
@@ -344,7 +344,7 @@ Use this example to show an image gallery based on a grid layout with the abilit
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </button>
-                <img src="/docs/images/blog/image-1.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-1.jpg" class="rounded-lg" />
             </div>
          </div>
          <div class="flex justify-between items-center">
@@ -390,7 +390,7 @@ Use this example to show a OG preview of the URL that is being shared inside the
 
 {{< example id="url-sharing-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="520" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -399,7 +399,7 @@ Use this example to show a OG preview of the URL that is being shared inside the
       <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">Check out this open-source UI component library based on Tailwind CSS:</p>
       <p class="text-sm font-normal pb-2.5 text-gray-900 dark:text-white"><a href="https://github.com/themesberg/flowbite" class="text-blue-700 dark:text-blue-500 underline hover:no-underline font-medium break-all">https://github.com/themesberg/flowbite</a></p>
       <a href="#" class="bg-gray-50 dark:bg-gray-600 rounded-xl p-4 mb-2 hover:bg-gray-200 dark:hover:bg-gray-500">
-        <img src="https://flowbite.com/docs/images/og-image.png" class="rounded-lg mb-2" />
+        <img src="https://flowbite.com/images/og-image.png" class="rounded-lg mb-2" />
         <span class="text-sm font-medium text-gray-900 dark:text-white mb-2">GitHub - themesberg/flowbite: The most popular and open source libra ...</span>
         <span class="text-xs text-gray-500 dark:text-gray-400 font-normal">github.com</span>
       </a>
@@ -438,7 +438,7 @@ Use this example to show a text message with the user profile and timestamp outs
 
 {{< example id="outline-chat-bubble-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="370" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col gap-1 w-full max-w-[320px]">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -482,7 +482,7 @@ This example can be used to show a voice note with the user profile and timestam
 
 {{< example id="outline-voice-note-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="370" >}}
 <div class="flex items-start gap-2.5">
-    <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+    <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
     <div class="flex flex-col gap-1">
         <div class="flex items-center space-x-2 rtl:space-x-reverse">
             <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -563,7 +563,7 @@ Use this example to show a file attachment with the user profile and timestamp o
 
 {{< example id="outline-file-attachment-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="380" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col gap-1">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -647,7 +647,7 @@ This example can be used to send an image attachment with the user profile outsi
 
 {{< example id="outline-image-attachment-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="460" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col gap-1">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -667,7 +667,7 @@ This example can be used to send an image attachment with the user profile outsi
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
             </div>
-            <img src="/docs/images/blog/image-1.jpg" class="rounded-lg" />
+            <img src="/images/blog/image-1.jpg" class="rounded-lg" />
         </div>
       </div>
       <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
@@ -705,7 +705,7 @@ Use this example to show an image gallery with the user profile and timestamp ou
 
 {{< example id="outline-image-gallery-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="480" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col gap-1">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -726,7 +726,7 @@ Use this example to show an image gallery with the user profile and timestamp ou
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-1.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-1.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <div class="absolute w-full h-full bg-gray-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
@@ -740,7 +740,7 @@ Use this example to show an image gallery with the user profile and timestamp ou
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-2.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-2.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <div class="absolute w-full h-full bg-gray-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
@@ -754,7 +754,7 @@ Use this example to show an image gallery with the user profile and timestamp ou
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-3.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-3.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <button class="absolute w-full h-full bg-gray-900/90 hover:bg-gray-900/50 transition-all duration-300 rounded-lg flex items-center justify-center">
@@ -764,7 +764,7 @@ Use this example to show an image gallery with the user profile and timestamp ou
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </button>
-                <img src="/docs/images/blog/image-1.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-1.jpg" class="rounded-lg" />
             </div>
          </div>
          <div class="flex justify-end items-center">
@@ -810,7 +810,7 @@ Use this example to show a URL preview with the user profile and timestamp outsi
 
 {{< example id="outline-url-sharing-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="520" >}}
 <div class="flex items-start gap-2.5">
-   <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+   <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
    <div class="flex flex-col gap-1 w-full max-w-[320px]">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -820,7 +820,7 @@ Use this example to show a URL preview with the user profile and timestamp outsi
          <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">Check out this open-source UI component library based on Tailwind CSS:</p>
         <p class="text-sm font-normal pb-2.5 text-gray-900 dark:text-white"><a href="https://github.com/themesberg/flowbite" class="text-blue-700 dark:text-blue-500 underline hover:no-underline font-medium break-all">https://github.com/themesberg/flowbite</a></p>
         <a href="#" class="bg-gray-50 dark:bg-gray-600 rounded-xl p-4 mb-2 hover:bg-gray-200 dark:hover:bg-gray-500">
-            <img src="https://flowbite.com/docs/images/og-image.png" class="rounded-lg mb-2" />
+            <img src="https://flowbite.com/images/og-image.png" class="rounded-lg mb-2" />
             <span class="text-sm font-medium text-gray-900 dark:text-white mb-2">GitHub - themesberg/flowbite: The most popular and open source libra ...</span>
             <span class="text-xs text-gray-500 dark:text-gray-400 font-normal">github.com</span>
         </a>
@@ -860,7 +860,7 @@ Use this example to show a text message with the user profile and timestamp with
 
 {{< example id="clean-chat-bubble-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="180" >}}
 <div class="flex items-start gap-2.5">
-    <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+    <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
     <div class="flex flex-col w-full max-w-[320px] leading-1.5">
         <div class="flex items-center space-x-2 rtl:space-x-reverse">
             <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -878,7 +878,7 @@ This example can be used to show a voice note with a transparent background.
 
 {{< example id="clean-voice-note-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="180" >}}
 <div class="flex items-start gap-2.5">
-    <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+    <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
     <div class="flex flex-col gap-1">
         <div class="flex items-center space-x-2 rtl:space-x-reverse">
             <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -935,7 +935,7 @@ Use this example to show a file attachment and a download button with a transpar
 
 {{< example id="clean-file-attachment-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="200" >}}
 <div class="flex items-start gap-2.5">
-   <img class="h-8 w-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image" />
+   <img class="h-8 w-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image" />
    <div class="flex flex-col gap-2.5">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -995,7 +995,7 @@ This example can be used to show an image and a download button with a transpare
 
 {{< example id="clean-image-attachment-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="380" >}}
 <div class="flex items-start gap-2.5">
-   <img class="h-8 w-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image" />
+   <img class="h-8 w-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image" />
    <div class="flex flex-col gap-2.5">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -1015,7 +1015,7 @@ This example can be used to show an image and a download button with a transpare
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
             </div>
-            <img src="/docs/images/blog/image-2.jpg" class="rounded-lg" />
+            <img src="/images/blog/image-2.jpg" class="rounded-lg" />
          </div>
       </div>
       <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
@@ -1029,7 +1029,7 @@ Use this example to show an image gallery with a transparent background as a cha
 
 {{< example id="clean-image-gallery-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="390" >}}
 <div class="flex items-start gap-2.5">
-   <img class="h-8 w-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image" />
+   <img class="h-8 w-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image" />
    <div class="flex flex-col gap-2.5">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -1050,7 +1050,7 @@ Use this example to show an image gallery with a transparent background as a cha
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-1.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-1.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <div class="absolute w-full h-full bg-gray-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
@@ -1064,7 +1064,7 @@ Use this example to show an image gallery with a transparent background as a cha
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-2.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-2.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <div class="absolute w-full h-full bg-gray-900/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
@@ -1078,7 +1078,7 @@ Use this example to show an image gallery with a transparent background as a cha
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
-                <img src="/docs/images/blog/image-3.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-3.jpg" class="rounded-lg" />
             </div>
             <div class="group relative">
                 <button class="absolute w-full h-full bg-gray-900/90 hover:bg-gray-900/50 transition-all duration-300 rounded-lg flex items-center justify-center">
@@ -1088,7 +1088,7 @@ Use this example to show an image gallery with a transparent background as a cha
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </button>
-                <img src="/docs/images/blog/image-1.jpg" class="rounded-lg" />
+                <img src="/images/blog/image-1.jpg" class="rounded-lg" />
             </div>
          </div>
       </div>
@@ -1110,7 +1110,7 @@ This example can be used to show a URL preview with a transparent background.
 
 {{< example id="clean-url-sharing-example" class="flex justify-center" github="components/chat-bubble.md" show_dark=true iframeHeight="450" >}}
 <div class="flex items-start gap-2.5">
-    <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image">
+    <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Jese image">
     <div class="flex flex-col w-full max-w-[320px] leading-1.5">
         <div class="flex items-center space-x-2 rtl:space-x-reverse">
             <span class="text-sm font-semibold text-gray-900 dark:text-white">Bonnie Green</span>
@@ -1119,7 +1119,7 @@ This example can be used to show a URL preview with a transparent background.
         <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">Check out this open-source UI component library based on Tailwind CSS:</p>
         <p class="text-sm font-normal pb-2.5 text-gray-900 dark:text-white"><a href="https://github.com/themesberg/flowbite" class="text-blue-700 dark:text-blue-500 underline hover:no-underline font-medium break-all">https://github.com/themesberg/flowbite</a></p>
         <a href="#" class="bg-gray-50 dark:bg-gray-600 rounded-xl p-4 mb-2 hover:bg-gray-200 dark:hover:bg-gray-500">
-            <img src="https://flowbite.com/docs/images/og-image.png" class="rounded-lg mb-2" />
+            <img src="https://flowbite.com/images/og-image.png" class="rounded-lg mb-2" />
             <span class="text-sm font-medium text-gray-900 dark:text-white mb-2">GitHub - themesberg/flowbite: The most popular and open source libra ...</span>
             <span class="text-xs text-gray-500 dark:text-gray-400 font-normal">github.com</span>
         </a>

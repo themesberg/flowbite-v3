@@ -18,7 +18,7 @@ Get started with a collection of responsive image components coded with the util
 Use this example to show the a responsive image that won't grow beyond the maximum original width.
 
 {{< example id="default-image-example" class="flex justify-center" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-full" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-full" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ## Image caption
@@ -27,7 +27,7 @@ This example can be used to add a caption for the image often used inside articl
 
 {{< example id="image-caption-example" class="flex justify-center" github="typography/images.md" show_dark=true >}}
 <figure class="max-w-lg">
-  <img class="h-auto max-w-full rounded-lg" src="/docs/images/examples/image-3@2x.jpg" alt="image description">
+  <img class="h-auto max-w-full rounded-lg" src="/images/examples/image-3@2x.jpg" alt="image description">
   <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Image caption</figcaption>
 </figure>
 {{< /example >}}
@@ -41,7 +41,7 @@ Apply rounded corners to the image by using the specific utility classes from Ta
 Use this example to apply rounded corners to the image by using the `rounded-{size}` class where the size can be anything from small to extra large.
 
 {{< example id="image-rounded-example" class="flex justify-center" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-lg rounded-lg" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-lg rounded-lg" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ### Full circle
@@ -49,7 +49,7 @@ Use this example to apply rounded corners to the image by using the `rounded-{si
 Use this example to mask the image inside a circle using the `rounded-full` utility class from Tailwind CSS.
 
 {{< example id="image-rounded-example" class="flex justify-center" github="typography/images.md" show_dark=true >}}
-<img class="rounded-full w-96 h-96" src="/docs/images/examples/image-4@2x.jpg" alt="image description">
+<img class="rounded-full w-96 h-96" src="/images/examples/image-4@2x.jpg" alt="image description">
 {{< /example >}}
 
 ## Image shadow
@@ -57,7 +57,7 @@ Use this example to mask the image inside a circle using the `rounded-full` util
 This example can be used to show a shadow effect for the image using the `shadow-{size}` utility class.
 
 {{< example id="image-shadow-example" class="flex justify-center pb-8" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-xl rounded-lg shadow-xl dark:shadow-gray-800" src="/docs/images/examples/image-2@2x.jpg" alt="image description">
+<img class="h-auto max-w-xl rounded-lg shadow-xl dark:shadow-gray-800" src="/images/examples/image-2@2x.jpg" alt="image description">
 {{< /example >}}
 
 ## Retina-ready
@@ -65,7 +65,7 @@ This example can be used to show a shadow effect for the image using the `shadow
 Use the `srcset` attribute to set Retina-ready images with double resolution.
 
 {{< example id="image-retina-example" class="flex justify-center" github="typography/images.md" show_dark=true >}}
-<img srcset="/docs/images/examples/image-1.jpg 1x, /docs/images/examples/image-1@2x.jpg 2x" class="w-full h-auto max-w-xl rounded-lg" alt="image description">
+<img srcset="/images/examples/image-1.jpg 1x, /images/examples/image-1@2x.jpg 2x" class="w-full h-auto max-w-xl rounded-lg" alt="image description">
 {{< /example >}}
 
 ## Image card
@@ -112,7 +112,7 @@ Align the image component to the left, center or right side of the document page
 By default, the image component will be aligned to the left side of the page.
 
 {{< example id="image-left-example" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-lg" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-lg" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ### Center
@@ -120,7 +120,7 @@ By default, the image component will be aligned to the left side of the page.
 Horizontally align the image to the center of the page using the `mx-auto` class.
 
 {{< example id="image-center-example" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-lg mx-auto" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-lg mx-auto" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ### Right
@@ -128,7 +128,7 @@ Horizontally align the image to the center of the page using the `mx-auto` class
 Use the `ml-auto` (or `ms-auto`) class to align the image to the right side of the page.
 
 {{< example id="image-right-example" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-lg ms-auto" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-lg ms-auto" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ## Sizes
@@ -140,7 +140,7 @@ Set the size of the image using the `w-{size}` and `h-{size}` or `max-w-{size}` 
 Use the `max-w-xs` class to set a small size of the image.
 
 {{< example id="image-small-example" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-xs" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-xs" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ### Medium
@@ -148,7 +148,7 @@ Use the `max-w-xs` class to set a small size of the image.
 Use the `max-w-md` class to set a medium size of the image.
 
 {{< example id="image-medium-example" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-md" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-md" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ### Large
@@ -156,7 +156,7 @@ Use the `max-w-md` class to set a medium size of the image.
 Use the `max-w-xl` class to set a large size of the image.
 
 {{< example id="image-large-example" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-xl" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-xl" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}
 
 ### Full width
@@ -164,5 +164,5 @@ Use the `max-w-xl` class to set a large size of the image.
 Use the `max-w-full` class to set the full width of the image as long as it doesn't become larger than the original source.
 
 {{< example id="image-full-example" github="typography/images.md" show_dark=true >}}
-<img class="h-auto max-w-full" src="/docs/images/examples/image-1@2x.jpg" alt="image description">
+<img class="h-auto max-w-full" src="/images/examples/image-1@2x.jpg" alt="image description">
 {{< /example >}}

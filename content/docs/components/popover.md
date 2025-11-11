@@ -46,7 +46,7 @@ Use this example to show more information about a user profile when hovering ove
     <div class="p-3">
         <div class="flex items-center justify-between mb-2">
             <a href="#">
-                <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Jese Leos">
+                <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-1.jpg" alt="Jese Leos">
             </a>
             <div>
                 <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xs px-3 py-1.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Follow</button>
@@ -90,7 +90,7 @@ This example can be used to show more information about a company profile.
         <div class="flex">
             <div class="me-3 shrink-0">
                 <a href="#" class="block p-2 bg-gray-100 rounded-lg dark:bg-gray-700">
-                <img class="w-8 h-8 rounded-full" src="https://flowbite.com/docs/images/logo.svg" alt="Flowbite logo">
+                <img class="w-8 h-8 rounded-full" src="https://flowbite.com/images/logo.svg" alt="Flowbite logo">
             </a>
             </div>
             <div>
@@ -120,9 +120,9 @@ This example can be used to show more information about a company profile.
                     </li>
                 </ul>
                 <div class="flex mb-3 -space-x-3 rtl:space-x-reverse">
-                    <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-5.jpg" alt="">
-                    <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-2.jpg" alt="">
-                    <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-3.jpg" alt="">
+                    <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-5.jpg" alt="">
+                    <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-2.jpg" alt="">
+                    <img class="w-8 h-8 border-2 border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-3.jpg" alt="">
                     <a class="flex items-center justify-center w-8 h-8 text-xs font-medium text-white bg-gray-400 border-2 border-white rounded-full hover:bg-gray-500 dark:border-gray-800" href="#">+3</a>
                 </div>
                 <div class="flex">
@@ -176,7 +176,7 @@ Use this example to trigger a popover component with detailed information and an
   </svg></a>
             </div>
         </div>
-        <img src="/docs/images/popovers/italy.png" class="h-full col-span-2" alt="Italy map" />
+        <img src="/images/popovers/italy.png" class="h-full col-span-2" alt="Italy map" />
     </div>
     <div data-popper-arrow></div>
 </div>

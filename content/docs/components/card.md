@@ -76,7 +76,7 @@ You can use the following example of a card element with an image for blog posts
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+        <img class="rounded-t-lg" src="/images/blog/image-1.jpg" alt="" />
     </a>
     <div class="p-5">
         <a href="#">
@@ -99,7 +99,7 @@ If you want to spice up your cards you can use the following card which has its 
 
 {{< example id="card-horizontal-example" class="flex justify-center" github="components/card.md" show_dark=true >}}
 <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/docs/images/blog/image-4.jpg" alt="">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/images/blog/image-4.jpg" alt="">
     <div class="flex flex-col justify-between p-4 leading-normal">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -137,7 +137,7 @@ Use this user profile card example if you want to show a dropdown menu and butto
         </div>
     </div>
     <div class="flex flex-col items-center pb-10">
-        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image"/>
+        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="/images/people/profile-picture-3.jpg" alt="Bonnie image"/>
         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
         <span class="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
         <div class="flex mt-4 md:mt-6">
@@ -190,7 +190,7 @@ Use this card for your e-commerce websites and show information about the produc
 
 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src="/docs/images/products/apple-watch.png" alt="product image" />
+        <img class="p-8 rounded-t-lg" src="/images/products/apple-watch.png" alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -489,7 +489,7 @@ Use this card example if you want to show a list of data:
             <li class="py-3 sm:py-4">
                 <div class="flex items-center">
                     <div class="shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Neil image">
+                        <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-1.jpg" alt="Neil image">
                     </div>
                     <div class="flex-1 min-w-0 ms-4">
                         <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -507,7 +507,7 @@ Use this card example if you want to show a list of data:
             <li class="py-3 sm:py-4">
                 <div class="flex items-center ">
                     <div class="shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image">
+                        <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-3.jpg" alt="Bonnie image">
                     </div>
                     <div class="flex-1 min-w-0 ms-4">
                         <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -525,7 +525,7 @@ Use this card example if you want to show a list of data:
             <li class="py-3 sm:py-4">
                 <div class="flex items-center">
                     <div class="shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-2.jpg" alt="Michael image">
+                        <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-2.jpg" alt="Michael image">
                     </div>
                     <div class="flex-1 min-w-0 ms-4">
                         <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -543,7 +543,7 @@ Use this card example if you want to show a list of data:
             <li class="py-3 sm:py-4">
                 <div class="flex items-center ">
                     <div class="shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Lana image">
+                        <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-4.jpg" alt="Lana image">
                     </div>
                     <div class="flex-1 min-w-0 ms-4">
                         <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
@@ -561,7 +561,7 @@ Use this card example if you want to show a list of data:
             <li class="pt-3 pb-0 sm:pt-4">
                 <div class="flex items-center ">
                     <div class="shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Thomas image">
+                        <img class="w-8 h-8 rounded-full" src="/images/people/profile-picture-5.jpg" alt="Thomas image">
                     </div>
                     <div class="flex-1 min-w-0 ms-4">
                         <p class="text-sm font-medium text-gray-900 truncate dark:text-white">

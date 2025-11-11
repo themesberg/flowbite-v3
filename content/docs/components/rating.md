@@ -299,7 +299,7 @@ Use this component to show a single rating comment and its score alongside other
 
 <article>
     <div class="flex items-center mb-4">
-        <img class="w-10 h-10 me-4 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="">
+        <img class="w-10 h-10 me-4 rounded-full" src="/images/people/profile-picture-5.jpg" alt="">
         <div class="font-medium dark:text-white">
             <p>Jese Leos <time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">Joined on August 2014</time></p>
         </div>
@@ -345,7 +345,7 @@ Use this component to show the review content from a user alongside the avatar, 
 <article class="md:gap-8 md:grid md:grid-cols-3">
     <div>
         <div class="flex items-center mb-6">
-            <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="">
+            <img class="w-10 h-10 rounded-full" src="/images/people/profile-picture-5.jpg" alt="">
             <div class="ms-4 font-medium dark:text-white">
                 <p>Jese Leos</p>
                 <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">

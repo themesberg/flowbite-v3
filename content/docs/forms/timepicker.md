@@ -256,9 +256,9 @@ This is an advanced example that you can use to show the details of an event and
    <div>
       <div class="text-base font-normal text-gray-500 dark:text-gray-400 mb-2">Participants</div>
       <div class="flex -space-x-4 rtl:space-x-reverse">
-         <img class="w-8 h-8 border border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-5.jpg" alt="">
-         <img class="w-8 h-8 border border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-2.jpg" alt="">
-         <img class="w-8 h-8 border border-white rounded-full dark:border-gray-800" src="/docs/images/people/profile-picture-3.jpg" alt="">
+         <img class="w-8 h-8 border border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-5.jpg" alt="">
+         <img class="w-8 h-8 border border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-2.jpg" alt="">
+         <img class="w-8 h-8 border border-white rounded-full dark:border-gray-800" src="/images/people/profile-picture-3.jpg" alt="">
          <a class="flex items-center justify-center w-8 h-8 text-xs font-medium text-white bg-gray-700 border border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+99</a>
       </div>
    </div>
