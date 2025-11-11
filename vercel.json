@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.148.2",
+      "GO_VERSION": "1.19.5"
+    }
+  },
+ "buildCommand": "hugo --gc --minify"
+}
