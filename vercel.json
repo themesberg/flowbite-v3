@@ -7,6 +7,6 @@
   },
   "buildCommand": "npm run build",
   "rewrites": [
-    { "source": "/docs/:path*", "destination": "/:path*" }
+    { "source": "/:path*", "destination": "/docs/:path*" }
   ]
 }
