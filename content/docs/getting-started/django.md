@@ -265,7 +265,7 @@ Let's start by adding a <a href="{{< ref "docs/components/navbar" >}}">Navbar co
     <!-- Add this -->
     <nav class="bg-green-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded-sm dark:bg-gray-800">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
-          <a href="{{ .Site.Params.homepage }}/" class="flex items-center">
+          <a href="https://flowbite.com/" class="flex items-center">
               <img src="/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
               <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite Django</span>
           </a>
