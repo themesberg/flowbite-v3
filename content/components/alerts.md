@@ -19,7 +19,7 @@ Flowbite also includes dismissible alerts which can be hidden by the users by cl
 
 Use the following examples of alert components to show messages as feedback to your users.
 
-{{< example id="default-alert-example" github="components/alerts.md" show_dark="true" >}}
+{{< example id="default-alert-example" github="components/alerts.md" show_dark=true >}}
 <div class="p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
   <span class="font-medium">Info alert!</span> Change a few things up and try submitting again.
 </div>
@@ -41,7 +41,7 @@ Use the following examples of alert components to show messages as feedback to y
 
 You can also include a descriptive icon to complement the message inside the alert component with the following example.
 
-{{< example id="alerts-with-icon-example" github="components/alerts.md" show_dark="true" >}}
+{{< example id="alerts-with-icon-example" github="components/alerts.md" show_dark=true >}}
 <div class="flex items-center p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
   <svg class="shrink-0 inline w-4 h-4 me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
@@ -93,7 +93,7 @@ You can also include a descriptive icon to complement the message inside the ale
 
 Use this example to add a border accent to the alert component instead of just a plain background.
 
-{{< example id="alerts-with-border-example" github="components/alerts.md" show_dark="true" >}}
+{{< example id="alerts-with-border-example" github="components/alerts.md" show_dark=true >}}
 <div class="flex items-center p-4 mb-4 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800" role="alert">
   <svg class="shrink-0 inline w-4 h-4 me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
@@ -145,7 +145,7 @@ Use this example to add a border accent to the alert component instead of just a
 
 Use this example to show a list and a description inside an alert component.
 
-{{< example id="alerts-list-example" github="components/alerts.md" show_dark="true" >}}
+{{< example id="alerts-list-example" github="components/alerts.md" show_dark=true >}}
 <div class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
   <svg class="shrink-0 inline w-4 h-4 me-3 mt-[2px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
@@ -184,7 +184,7 @@ Use this example to show a list and a description inside an alert component.
 
 Use the following alert elements that are also dismissible.
 
-{{< example id="alerts-dismissing-example" github="components/alerts.md" show_dark="true" >}}
+{{< example id="alerts-dismissing-example" github="components/alerts.md" show_dark=true >}}
 <div id="alert-1" class="flex items-center p-4 mb-4 text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
   <svg class="shrink-0 w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
@@ -266,7 +266,7 @@ Use the following alert elements that are also dismissible.
 
 Use this example to add a border accent on top of the alert component for further visual distinction.
 
-{{< example id="alerts-border-accent-example" github="components/alerts.md" show_dark="true" >}}
+{{< example id="alerts-border-accent-example" github="components/alerts.md" show_dark=true >}}
 <div id="alert-border-1" class="flex items-center p-4 mb-4 text-blue-800 border-t-4 border-blue-300 bg-blue-50 dark:text-blue-400 dark:bg-gray-800 dark:border-blue-800" role="alert">
     <svg class="shrink-0 w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
@@ -343,7 +343,7 @@ Use this example to add a border accent on top of the alert component for furthe
 
 The following alert components can be used if you wish to disclose more information inside the element.
 
-{{< example id="alerts-additional-content-example" github="components/alerts.md" show_dark="true" >}}
+{{< example id="alerts-additional-content-example" github="components/alerts.md" show_dark=true >}}
 <div id="alert-additional-content-1" class="p-4 mb-4 text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800" role="alert">
   <div class="flex items-center">
     <svg class="shrink-0 w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

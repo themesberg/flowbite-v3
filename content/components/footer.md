@@ -19,7 +19,7 @@ Use these footer sections coded with the utility classes from Tailwind CSS and c
 
 Use this footer component to show a copyright notice and some helpful website links.
 
-{{< example id="default-footer-example" bodyClass="!p-0" github="components/footer.md" class="p-2" show_dark="true" >}}
+{{< example id="default-footer-example" bodyClass="!p-0" github="components/footer.md" class="p-2" show_dark=true >}}
 
 <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
@@ -47,7 +47,7 @@ Use this footer component to show a copyright notice and some helpful website li
 
 Use this component to show your brand's logo, a few website links and the copyright notice on a second row.
 
-{{< example id="footer-logo-example" bodyClass="!p-0" github="components/footer.md" class="p-2" show_dark="true" >}}
+{{< example id="footer-logo-example" bodyClass="!p-0" github="components/footer.md" class="p-2" show_dark=true >}}
 
 <footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
@@ -82,7 +82,7 @@ Use this component to show your brand's logo, a few website links and the copyri
 
 This footer component can be used to show your brand's logo, multiple rows of website links, a copyright notice and social media profile icons including Twitter, Facebook, Instagram, and more.
 
-{{< example id="footer-social-media-example" bodyClass="!p-0" github="components/footer.md" show_dark="true" >}}
+{{< example id="footer-social-media-example" bodyClass="!p-0" github="components/footer.md" show_dark=true >}}
 
 <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -174,7 +174,7 @@ This footer component can be used to show your brand's logo, multiple rows of we
 
 If you have a website with many pages you can use this footer component to show a sitemap spanning the entire width of a row followed below by a copyright notice and social media icons.
 
-{{< example id="footer-sitemap-example" bodyClass="!p-0" github="components/footer.md" show_dark="true" >}}
+{{< example id="footer-sitemap-example" bodyClass="!p-0" github="components/footer.md" show_dark=true >}}
 
 <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl">
@@ -289,7 +289,7 @@ If you have a website with many pages you can use this footer component to show 
 
 Use this example to set create a sticky footer by using a fixed position to the bottom of the document page as the user scrolls up or down the main content area.
 
-{{< example id="footer-sticky-example" bodyClass="!p-0" github="components/navbar.md" show_dark="true" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders="true" >}}
+{{< example id="footer-sticky-example" bodyClass="!p-0" github="components/navbar.md" show_dark=true iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders=true >}}
 
 <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow-sm md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="{{< param homepage >}}/" class="hover:underline">Flowbite™</a>. All Rights Reserved.

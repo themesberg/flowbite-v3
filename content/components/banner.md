@@ -20,7 +20,7 @@ Explore the following examples based on various styles, sizes, and positionings 
 
 Use this free example to show a text message for announcement with a CTA link, an icon element and a close button to dismiss the banner.
 
-{{< example id="default-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders="true" show_dark="true" >}}
+{{< example id="default-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders=true show_dark=true >}}
 
 <div id="sticky-banner" tabindex="-1" class="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
     <div class="flex items-center mx-auto">
@@ -50,7 +50,7 @@ Use this free example to show a text message for announcement with a CTA link, a
 
 This example can be used to position the sticky banner to the bottom side of the page instead of the top side.
 
-{{< example id="bottom-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders="true" show_dark="true" >}}
+{{< example id="bottom-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders=true show_dark=true >}}
 
 <div id="bottom-banner" tabindex="-1" class="fixed bottom-0 start-0 z-50 flex justify-between w-full p-4 border-t border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
     <div class="flex items-center mx-auto">
@@ -81,7 +81,7 @@ This example can be used to position the sticky banner to the bottom side of the
 
 Use this free example to show a text message for announcement with a CTA link, an icon element and a close button to dismiss the banner. Set a different width by using the `max-w-{*}` utility classes from Tailwind CSS.
 
-{{< example id="marketing-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders="true" show_dark="true" >}}
+{{< example id="marketing-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders=true show_dark=true >}}
 
 <div id="marketing-banner" tabindex="-1" class="fixed z-50 flex flex-col md:flex-row justify-between w-[calc(100%-2rem)] p-4 -translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-xs lg:max-w-7xl left-1/2 top-6 dark:bg-gray-700 dark:border-gray-600">
     <div class="flex flex-col items-start mb-3 me-4 md:items-center md:flex-row md:mb-0">
@@ -108,7 +108,7 @@ Use this free example to show a text message for announcement with a CTA link, a
 
 This example can be used to encourage your website visitors to sign up to your email newsletter by showing an inline form inside the sticky banner on the top side of your page.
 
-{{< example id="newsletter-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders="true" show_dark="true" >}}
+{{< example id="newsletter-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders=true show_dark=true >}}
 
 <div id="newsletter-banner" tabindex="-1" class="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
     <div class="flex items-center shrink-0 w-full mx-auto sm:w-auto">
@@ -133,7 +133,7 @@ This example can be used to encourage your website visitors to sign up to your e
 
 This example can be used to share important information with your website visitors by showing a heading and a paragraph inside the sticky banner and two CTA buttons with links.
 
-{{< example id="informational-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders="true" show_dark="true" >}}
+{{< example id="informational-sticky-banner-example" class="p-0" github="components/banner.md" iframeHeight="480" iframeMaxHeight="480" skeletonPlaceholders=true show_dark=true >}}
 
 <div id="informational-banner" tabindex="-1" class="fixed top-0 start-0 z-50 flex flex-col justify-between w-full p-4 border-b border-gray-200 md:flex-row bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
     <div class="mb-4 md:mb-0 md:me-4">

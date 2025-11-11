@@ -17,7 +17,7 @@ The list group component can be used to display a series of elements, buttons or
 
 Here's an example of a list group that you can use right away.
 
-{{< example id="default-list-group-example" class="flex justify-center" github="components/list-group.md" show_dark="true" >}}
+{{< example id="default-list-group-example" class="flex justify-center" github="components/list-group.md" show_dark=true >}}
 
 <ul class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <li class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600">Profile</li>
@@ -31,7 +31,7 @@ Here's an example of a list group that you can use right away.
 
 You can also display a series of links inside the list group element.
 
-{{< example id="list-group-links-example" class="flex justify-center" github="components/list-group.md" show_dark="true" >}}
+{{< example id="list-group-links-example" class="flex justify-center" github="components/list-group.md" show_dark=true >}}
 
 <div class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <a href="#" aria-current="true" class="block w-full px-4 py-2 text-white bg-blue-700 border-b border-gray-200 rounded-t-lg cursor-pointer dark:bg-gray-800 dark:border-gray-600">
@@ -53,7 +53,7 @@ You can also display a series of links inside the list group element.
 
 It is also possible to display a list of button element inside the list group component. The following example includes an active and disabled item as well.
 
-{{< example id="list-group-buttons-example" class="flex justify-center" github="components/list-group.md" show_dark="true" >}}
+{{< example id="list-group-buttons-example" class="flex justify-center" github="components/list-group.md" show_dark=true >}}
 
 <div class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <button aria-current="true" type="button" class="w-full px-4 py-2 font-medium text-left rtl:text-right text-white bg-blue-700 border-b border-gray-200 rounded-t-lg cursor-pointer focus:outline-none dark:bg-gray-800 dark:border-gray-600">
@@ -75,7 +75,7 @@ It is also possible to display a list of button element inside the list group co
 
 Use the following example to create a list of buttons as a menu together with [SVG icons](https://flowbite.com/icons/).
 
-{{< example id="list-group-icons-example" class="flex justify-center" github="components/list-group.md" show_dark="true" >}}
+{{< example id="list-group-icons-example" class="flex justify-center" github="components/list-group.md" show_dark=true >}}
 
 <div class="w-48 text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <button type="button" class="relative inline-flex items-center w-full px-4 py-2 text-sm font-medium border-b border-gray-200 rounded-t-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">

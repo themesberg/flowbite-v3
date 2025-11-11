@@ -18,7 +18,7 @@ Get started with these custom Tailwind CSS form components to gather information
 
 This is an example of a form component including an email, password, checkbox, and submit button that you can use as a starting point for any form element in your website using Flowbite and Tailwind CSS.
 
-{{< example id="default-form-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="default-form-example" github="components/forms.md" show_dark=true >}}
 
 <form class="max-w-sm mx-auto">
   <div class="mb-5">
@@ -47,7 +47,7 @@ This is an example of a form component including an email, password, checkbox, a
 
 Use these form elements inspired by material design from Google to adjust the `label` tag as the visual placeholder for the input elements using the `peer-placeholder-shown` and `peer-focus` utility classes. These components require Tailwind CSS v3.x and above.
 
-{{< example id="form-floating-label-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-floating-label-example" github="components/forms.md" show_dark=true >}}
 
 <form class="max-w-md mx-auto">
   <div class="relative z-0 w-full mb-5 group">
@@ -90,7 +90,7 @@ Use these form elements inspired by material design from Google to adjust the `l
 
 Use the following utility classes to create three different sizing options (large, base, and small) for your form input elements.
 
-{{< example id="form-sizes-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-sizes-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto">
   <div class="mb-5">
       <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Large input</label>
@@ -111,7 +111,7 @@ Use the following utility classes to create three different sizing options (larg
 
 Use the following utility classes to indicate a disabled form input item.
 
-{{< example id="form-disabled-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-disabled-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto">
   <input type="text" id="disabled-input" aria-label="disabled input" class="mb-5 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="Disabled input" disabled>
   <input type="text" id="disabled-input-2" aria-label="disabled input 2" class="bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" value="Disabled readonly input" disabled readonly>
@@ -122,7 +122,7 @@ Use the following utility classes to indicate a disabled form input item.
 
 Alternatively, you can decide to apply a shadow styling using the `shadow-xs` class to any of your form input elements.
 
-{{< example id="form-shadow-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-shadow-example" github="components/forms.md" show_dark=true >}}
 
 <form class="max-w-sm mx-auto">
   <div class="mb-5">
@@ -151,7 +151,7 @@ Alternatively, you can decide to apply a shadow styling using the `shadow-xs` cl
 
 Use the following markup to also add a helper text below your form input item. Usually used for newsletter signup elements.
 
-{{< example id="form-helper-text-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-helper-text-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto"> 
   <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
   <input type="email" id="email" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com">
@@ -164,7 +164,7 @@ Use the following markup to also add a helper text below your form input item. U
 
 Use the following Tailwind utility classes and [SVG icon](https://flowbite.com/icons/) to add an icon inside input form elements.
 
-{{< example id="form-input-icon-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-input-icon-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto">
   <label for="email-address-icon" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label>
   <div class="relative">
@@ -183,7 +183,7 @@ Use the following Tailwind utility classes and [SVG icon](https://flowbite.com/i
 
 Use this example to add a SVG icon or special character with an addon style to the input element.
 
-{{< example id="form-input-addon-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-input-addon-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto">
   <label for="website-admin" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
   <div class="flex">
@@ -201,7 +201,7 @@ Use this example to add a SVG icon or special character with an addon style to t
 
 Use the following two success and error styles when validation your forms.
 
-{{< example id="form-validation-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-validation-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto">
   <div class="mb-5">
     <label for="username-success" class="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your name</label>
@@ -220,7 +220,7 @@ Use the following two success and error styles when validation your forms.
 
 Use the following code to create a textarea form element.
 
-{{< example id="form-textarea-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-textarea-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto">
   <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
   <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
@@ -231,7 +231,7 @@ Use the following code to create a textarea form element.
 
 Use the following select input element to show selectable list of items.
 
-{{< example id="form-select-input-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-select-input-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-sm mx-auto">
   <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select your country</label>
   <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -248,7 +248,7 @@ Use the following select input element to show selectable list of items.
 
 The code below can be used to create a fieldset of checkbox elements inside a form. We also created a checkbox variant with extra description and one in a disabled form.
 
-{{< example id="form-checkbox-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-checkbox-example" github="components/forms.md" show_dark=true >}}
 
 <fieldset>
   <legend class="sr-only">Checkbox variants</legend>
@@ -289,7 +289,7 @@ The code below can be used to create a fieldset of checkbox elements inside a fo
 
 Group a series of buttons together on a single line or stack them in a vertical column.
 
-{{< example id="form-radio-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-radio-example" github="components/forms.md" show_dark=true >}}
 
 <fieldset>
   <legend class="sr-only">Countries</legend>
@@ -339,7 +339,7 @@ Group a series of buttons together on a single line or stack them in a vertical 
 
 Use the following Tailwind CSS file upload element to receive any type of file from users.
 
-{{< example id="form-file-input-example" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-file-input-example" github="components/forms.md" show_dark=true >}}
 <form class="max-w-lg mx-auto">
   <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="user_avatar">Upload file</label>
   <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" aria-describedby="user_avatar_help" id="user_avatar" type="file">
@@ -351,7 +351,7 @@ Use the following Tailwind CSS file upload element to receive any type of file f
 
 Use the following toggle switch component to ask for a yes or no type of input from your users without the use of JavaScript.
 
-{{< example id="form-toggle-example" class="flex flex-col flex-wrap" github="components/forms.md" show_dark="true" >}}
+{{< example id="form-toggle-example" class="flex flex-col flex-wrap" github="components/forms.md" show_dark=true >}}
 <label class="inline-flex items-center mb-5 cursor-pointer">
   <input type="checkbox" value="" class="sr-only peer">
   <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:w-5 after:h-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600"></div>

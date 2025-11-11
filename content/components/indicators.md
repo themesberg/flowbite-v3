@@ -19,7 +19,7 @@ Check out the following examples for multiple sizes, colors, positionings, style
 
 Use this example to create a simple indicator with multiple colors and position it anywhere on the website.
 
-{{< example id="default-indicator-example" class="flex items-center justify-center" github="components/indicators.md" show_dark="true" >}}
+{{< example id="default-indicator-example" class="flex items-center justify-center" github="components/indicators.md" show_dark=true >}}
 <span class="flex w-3 h-3 me-3 bg-gray-200 rounded-full"></span>
 <span class="flex w-3 h-3 me-3 bg-gray-900 rounded-full dark:bg-gray-700"></span>
 <span class="flex w-3 h-3 me-3 bg-blue-600 rounded-full"></span>
@@ -35,7 +35,7 @@ Use this example to create a simple indicator with multiple colors and position 
 
 This example can be used as a legend indicator for charts to also add a text next to the bullet point.
 
-{{< example id="legend-indicator-example" class="flex items-center justify-center" github="components/indicators.md" show_dark="true" >}}
+{{< example id="legend-indicator-example" class="flex items-center justify-center" github="components/indicators.md" show_dark=true >}}
 <span class="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3"><span class="flex w-2.5 h-2.5 bg-blue-600 rounded-full me-1.5 shrink-0"></span>Visitors</span>
 <span class="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3"><span class="flex w-2.5 h-2.5 bg-purple-500 rounded-full me-1.5 shrink-0"></span>Sessions</span>
 <span class="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3"><span class="flex w-2.5 h-2.5 bg-indigo-500 rounded-full me-1.5 shrink-0"></span>Customers</span>
@@ -46,7 +46,7 @@ This example can be used as a legend indicator for charts to also add a text nex
 
 This example can be used to show a number count inside the indicator and position it relative to a button component.
 
-{{< example id="indicator-count-example" github="components/indicators.md" class="flex items-center justify-center" show_dark="true" >}}
+{{< example id="indicator-count-example" github="components/indicators.md" class="flex items-center justify-center" show_dark=true >}}
 <button type="button" class="relative inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 <svg class="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
 <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
@@ -62,7 +62,7 @@ Messages
 
 Use this example to show a status indicator for the currently logged in user by showing red for offline and green for online.
 
-{{< example id="status-indicator-example" github="components/indicators.md" class="flex items-center justify-center" show_dark="true" >}}
+{{< example id="status-indicator-example" github="components/indicators.md" class="flex items-center justify-center" show_dark=true >}}
 
 <div class="relative me-4">
     <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="profile image">
@@ -78,7 +78,7 @@ Use this example to show a status indicator for the currently logged in user by 
 
 This example can be used to add an indicator inside of a badge component.
 
-{{< example id="badge-indicator-example" github="components/indicators.md" class="flex items-center justify-center" show_dark="true" >}}
+{{< example id="badge-indicator-example" github="components/indicators.md" class="flex items-center justify-center" show_dark=true >}}
 
 <ul role="list" class="max-w-sm divide-y divide-gray-200 dark:divide-gray-700">
     <li class="py-3 sm:py-4">
@@ -126,7 +126,7 @@ This example can be used to add an indicator inside of a badge component.
 
 You can also use the indicators inside of a stepper component when completing a form element.
 
-{{< example id="stepper-indicator-example" class="space-y-8" github="components/indicators.md" show_dark="true" >}}
+{{< example id="stepper-indicator-example" class="space-y-8" github="components/indicators.md" show_dark=true >}}
 
 <ol class="flex items-center">
     <li class="relative w-full mb-6">
@@ -232,7 +232,7 @@ You can also use the indicators inside of a stepper component when completing a 
 
 Use this animated loading indicator when content inside of a card is still loading.
 
-{{< example id="loading-indicator-example" class="space-y-8 flex items-center justify-center" github="components/indicators.md" show_dark="true" >}}
+{{< example id="loading-indicator-example" class="space-y-8 flex items-center justify-center" github="components/indicators.md" show_dark=true >}}
 
 <div class="flex items-center justify-center w-56 h-56 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div class="px-3 py-1 text-xs font-medium leading-none text-center text-blue-800 bg-blue-200 rounded-full animate-pulse dark:bg-blue-900 dark:text-blue-200">loading...</div>
@@ -243,7 +243,7 @@ Use this animated loading indicator when content inside of a card is still loadi
 
 Use this animated spinner component inside of a card component that hasn't loaded yet.
 
-{{< example id="spinner-indicator-example" class="space-y-8 flex items-center justify-center" github="components/indicators.md" show_dark="true" >}}
+{{< example id="spinner-indicator-example" class="space-y-8 flex items-center justify-center" github="components/indicators.md" show_dark=true >}}
 
 <div class="flex items-center justify-center w-56 h-56 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div role="status">
@@ -257,7 +257,7 @@ Use this animated spinner component inside of a card component that hasn't loade
 
 Use these examples to position the indicator component anywhere relative to the parent element.
 
-{{< example id="position-indicator" class="flex items-center justify-center space-y-8" github="components/indicators.md" show_dark="true" >}}
+{{< example id="position-indicator" class="flex items-center justify-center space-y-8" github="components/indicators.md" show_dark=true >}}
 
 <div class="relative w-56 h-56 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
     <span class="bg-blue-200 text-xs font-medium text-blue-800 text-center p-0.5 leading-none rounded-full px-2 dark:bg-blue-900 dark:text-blue-200 absolute -translate-y-1/2 translate-x-1/2 right-1/2">top-center</span>

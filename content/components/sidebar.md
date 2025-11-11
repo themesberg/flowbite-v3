@@ -17,7 +17,7 @@ The sidebar component can be used as a complementary element relative to the nav
 
 Use this example to show a responsive list of menu items inside the sidebar with icons and labels.
 
-{{< example id="default-sidebar-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark="true" >}}
+{{< example id="default-sidebar-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark=true >}}
 <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -204,7 +204,7 @@ Use this example to show a responsive list of menu items inside the sidebar with
 
 Use this sidebar example to create multi-level menu items by applying the `data-collapse-toggle="id"` data attribute from Flowbite and toggle the second-level menu item.
 
-{{< example id="sidebar-multi-level-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark="true" >}}
+{{< example id="sidebar-multi-level-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark=true >}}
 <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -409,7 +409,7 @@ Use this sidebar example to create multi-level menu items by applying the `data-
 
 Separate the content inside the sidebar component by applying a border separator between the two menus.
 
-{{< example id="sidebar-separator-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark="true" >}}
+{{< example id="sidebar-separator-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark=true >}}
 <button data-drawer-target="separator-sidebar" data-drawer-toggle="separator-sidebar" aria-controls="separator-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -627,7 +627,7 @@ Separate the content inside the sidebar component by applying a border separator
 
 Use this example to add a CTA button inside the sidebar component and encourage your users to visit the dedicated page.
 
-{{< example id="sidebar-cta-button-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark="true" >}}
+{{< example id="sidebar-cta-button-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark=true >}}
 <button data-drawer-target="cta-button-sidebar" data-drawer-toggle="cta-button-sidebar" aria-controls="cta-button-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -825,7 +825,7 @@ Use this example to add a CTA button inside the sidebar component and encourage 
 
 Show the logo of your brand and link back to the homepage from the top part of the sidebar.
 
-{{< example id="sidebar-logo-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark="true" >}}
+{{< example id="sidebar-logo-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark=true >}}
 <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1012,7 +1012,7 @@ Show the logo of your brand and link back to the homepage from the top part of t
 
 Use this example to show a navbar together with a sidebar layout for your web application.
 
-{{< example id="sidebar-logo-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark="true" >}}
+{{< example id="sidebar-logo-example" github="components/sidebar.md" bodyClass="!p-0" iframeHeight="640" iframeMaxHeight="640" show_dark=true >}}
 
 <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
   <div class="px-3 py-3 lg:px-5 lg:pl-3">
@@ -1242,7 +1242,7 @@ Use this example to show a navbar together with a sidebar layout for your web ap
 
 Use this example to show the navigation as an off-canvas drawer component when clicking on an element.
 
-{{< example id="drawer-navigation-example" github="components/sidebar.md" show_dark="true" iframeHeight="640" iframeMaxHeight="640" skeletonPlaceholders="true" >}}
+{{< example id="drawer-navigation-example" github="components/sidebar.md" show_dark=true iframeHeight="640" iframeMaxHeight="640" skeletonPlaceholders=true >}}
 
 <!-- drawer init and show -->
 <div class="text-center">
