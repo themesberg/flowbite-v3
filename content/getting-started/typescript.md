@@ -252,7 +252,7 @@ You can start using the open-source and interactive components from Flowbite whi
 1. Install and require Flowbite in your `package.json` file by running the following command:
 
 ```bash
-npm install flowbite
+npm install flowbite@3.1.2
 ```
 
 2. Require Flowbite as a plugin inside your `tailwind.config.js` file:

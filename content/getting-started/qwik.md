@@ -66,7 +66,7 @@ Follow the next steps to install and set up Flowbite in your Qwik project:
 1. Install Flowbite as a dependency using NPM by running the following command:
 
 ```bash
-npm install flowbite --save
+npm install flowbite@3.1.2 --save
 ```
 
 2. Import the default theme variables from Flowbite inside your main `global.css` CSS file:

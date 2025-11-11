@@ -237,7 +237,7 @@ Now that you have installed both Phoenix and Tailwind CSS we can proceed by inst
 1. Create a `package.json` file using `npm init` inside the `./assets/` folder and then install the Flowbite package using NPM:
 
 ```bash
-npm install flowbite
+npm install flowbite@3.1.2
 ```
 
 2. Require the Flowbite plugin inside `tailwind.config.js`:
@@ -586,7 +586,7 @@ Since the release of version `2.4.0` of Flowbite the Datepicker component is par
 To use the <a href="{{< ref "plugins/datepicker" >}}">Flowbite Datepicker</a> plugin using JavaScript you will need to include it into your project via NPM:
 
 ```bash
-npm install flowbite-datepicker --save
+npm install flowbite-datepicker@1.3.2 --save
 ```
 
 After you've installed the NPM library, you will need to import the `Datepicker` module in your `app.js` file:

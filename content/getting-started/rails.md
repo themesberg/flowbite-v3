@@ -63,7 +63,7 @@ Now that Tailwind CSS has been successfully installed you can proceed by install
 1. Install Flowbite by running the following command in your terminal:
 
 ```bash
-npm install flowbite --save
+npm install flowbite@3.1.2 --save
 ```
 
 2. Import the default theme variables from Flowbite inside your main `application.css` CSS file:

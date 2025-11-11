@@ -639,7 +639,7 @@ datepicker.getDatepickerInstance();
 If you want to directly use the main Datepicker component instance you can either install it via NPM and import it or use the `getDatepickerInstance()` method using our Instance Manager to call all of the extra options and methods from the [parent plugin library](https://github.com/themesberg/flowbite-datepicker):
 
 ```bash
-npm install flowbite-datepicker --save
+npm install flowbite-datepicker@1.3.2 --save
 ```
 
 After you've installed the NPM library, you will need to import the `Datepicker` module:

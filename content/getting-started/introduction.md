@@ -68,7 +68,7 @@ Make sure that you have <a href="https://nodejs.org/en/" rel="nofollow" target="
 1. Install Flowbite as a dependency using NPM by running the following command:
 
 ```bash
-npm install flowbite
+npm install flowbite@3.1.2
 ```
 
 2. Import the default theme variables from Flowbite inside your main `input.css` CSS file:

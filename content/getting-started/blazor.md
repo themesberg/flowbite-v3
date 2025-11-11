@@ -183,7 +183,7 @@ Flowbite is an open-source UI component library that is built with Tailwind CSS 
 1. Install Flowbite as a dependency using NPM by running the following command:
 
 ```bash
-npm install flowbite --save
+npm install flowbite@3.1.2 --save
 ```
 
 2. Import the default theme variables from Flowbite inside your main `input.css` CSS file:

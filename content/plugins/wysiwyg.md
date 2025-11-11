@@ -25,7 +25,7 @@ Before continuing make sure that you have Tailwind CSS, Flowbite, and Tip Tap in
 2. Install the [Flowbite Typography](https://flowbite.com/docs/components/typography/) plugin to format the content of text inside the WYSYIWYG editor preview:
 
 ```bash
-npm i flowbite-typography
+npm i flowbite-typography@1.0.5
 ```
 
 3. Import the `flowbite-typography` plugin inside your main Tailwind CSS file:
