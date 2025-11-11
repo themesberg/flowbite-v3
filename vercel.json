@@ -5,5 +5,8 @@
       "GO_VERSION": "1.19.5"
     }
   },
- "buildCommand": "npm run build"
+  "buildCommand": "npm run build",
+  "rewrites": [
+    { "source": "/docs/:path*", "destination": "/:path*" }
+  ]
 }
