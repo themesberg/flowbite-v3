@@ -4,7 +4,7 @@ baseURL:                "https://v3.flowbite.com/docs/"
 enableInlineShortcodes: true
 
 params:
-  homepage: "https://v3.flowbite.com/docs/"
+  homepage: "https://v3.flowbite.com"
   current_version: 3.1.2
   authors: Themesberg
   social_image_path: /docs/images/og-image.png
